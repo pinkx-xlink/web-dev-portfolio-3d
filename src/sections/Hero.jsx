@@ -79,6 +79,8 @@ const Hero = () => {
             </figure>
 
         </div>
+
+        
     </section>
   )
 }
