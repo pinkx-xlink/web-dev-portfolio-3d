@@ -1,6 +1,7 @@
 import { OrbitControls } from "@react-three/drei"
 import { Canvas } from "@react-three/fiber"
-import { useMediaQuery } from "react-responsive";
+import { useMediaQuery } from "react-responsive"
+import { Room } from './Room.jsx'
 
 const HeroExperience = () => {
   const isTablet = useMediaQuery({ query: '(max-width: 1024px' });
@@ -19,6 +20,8 @@ const HeroExperience = () => {
             minPolarAngle={Math.PI / 5}
             maxPolarAngle={Math.PI / 2}
         />
+
+        <Room />
        
     </Canvas>
   )
