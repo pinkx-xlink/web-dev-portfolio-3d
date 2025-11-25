@@ -1,4 +1,5 @@
 import { words } from "../constants/index.js";
+import Button from "../components/Button.jsx";
 
 const Hero = () => {
   return (
@@ -41,8 +42,10 @@ const Hero = () => {
                 pointer-events-none">
                     Hi, I'm Shaiyan, a developer based in the Midwest with a passion for code.
                 </p>
+                <Button />
             </div>
 
+            
             </header>
         </div>
     </section>
