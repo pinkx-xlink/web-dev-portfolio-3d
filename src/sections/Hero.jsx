@@ -51,6 +51,10 @@ const Hero = () => {
 
             
             </header>
+
+            {/* RIGHT: 3D MODEL */}
+
+            
         </div>
     </section>
   )
