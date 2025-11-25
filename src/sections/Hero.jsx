@@ -1,7 +1,5 @@
-const words = [
-    { text: 'Ideas', imgPath: '/image/ideas.svg' },
-    { text: 'Concepts', imgPath: '/image/concepts.svg' },
-]
+import { words } from "../constants";
+
 const Hero = () => {
   return (
     <section id="hero" className="relative overflow-hidden">
