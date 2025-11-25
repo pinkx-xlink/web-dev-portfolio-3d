@@ -36,6 +36,11 @@ const Hero = () => {
                     <h1>into Real Projects</h1>
                     <h1>that Deliver Results</h1>
                 </div>
+
+                 <p className="text-white-50 md:text-xl relative z-10 
+                pointer-events-none">
+                    Hi, I'm Shaiyan, a developer based in the Midwest with a passion for code.
+                </p>
             </div>
 
             </header>
