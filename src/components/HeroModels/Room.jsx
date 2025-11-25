@@ -6,12 +6,18 @@ export function Room(props) {
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
 
   const curtainMaterial = new THREE.MeshPhongMaterial({ color:
-'#d90429'})
+'#d90429'
+  })
+
+  const bodyMaterial = new THREE.MeshPhongMaterial({
+    map: matcapTexture
+  })
+
 
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
-      <mesh geometry={nodes.body1_blinn1_0.geometry} material={materials.blinn1} />
+      <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
       <mesh geometry={nodes.cabin_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.chair_body_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.comp_blinn1_0.geometry} material={materials.blinn1} />
