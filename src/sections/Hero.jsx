@@ -42,7 +42,11 @@ const Hero = () => {
                 pointer-events-none">
                     Hi, I'm Shaiyan, a developer based in the Midwest with a passion for code.
                 </p>
-                <Button />
+                <Button
+                  className="md:w-80 md:h-16 w-60 h-12"
+                  id="button"
+                  text="See my Work"
+                />
             </div>
 
             
