@@ -2,7 +2,23 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <header className="navbar">
+        <div className='inner'>
+            <a className='logo' href="#hero">
+                Shaiyan | Y
+            </a>
+
+            <nav className='desktop'>
+
+            </nav>
+
+            <a href='#contact' className='contact-btn group'>
+                <div className='inner'>
+                    <span>Contact Me</span>
+                </div>
+            </a>
+        </div>
+    </header>
   )
 }
 
