@@ -1,3 +1,7 @@
+TO-DO:
+- Replace the PROJECT CARDS w/ my own projects
+- Replace the LOGOS w/ the logos of companies I've worked for
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
