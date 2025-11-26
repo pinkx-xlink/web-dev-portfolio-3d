@@ -1,6 +1,7 @@
 TO-DO:
 - Replace the PROJECT CARDS w/ my own projects
 - Replace the LOGOS w/ the logos of companies I've worked for
+- Replace ABILITIES 
 
 # React + Vite
 
