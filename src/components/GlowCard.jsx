@@ -13,7 +13,7 @@ const GlowCard = ({ card, children, index }) => {
         const mouseY = e.clientY - rect.top - rect.height / 2;
 
         // calc the angle from center of card
-        let angle = Math.atan2((mouseY, mouseX) * (180 / Math.PI));
+        let angle = Math.atan2(mouseY, mouseX) * (180 / Math.PI);
 
         angle = (angle + 360) % 360;
 
@@ -23,7 +23,7 @@ const GlowCard = ({ card, children, index }) => {
   return (
     <div ref={(el) => (cardRefs.current[index] = el)}
 onMouseMove={handleMouseMove(index)} className='card
-card-border timeline-card rounded-xl p-10'>
+card-bordr timeline-card rounded-xl p-10'>
       <div className='glow' /> 
       <div className='flex items-center gap-1 mb-5'>
         {Array.from({length: 5}, (_, i) => (
