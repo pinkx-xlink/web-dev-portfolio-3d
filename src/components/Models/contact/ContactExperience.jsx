@@ -1,10 +1,11 @@
 import { OrbitControls } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
-
+import { Html } from "@react-three/drei"
 import Computer from "./ContactExperience";
 
 const ContactExperience = () => {
   return (
+   
     <Canvas shadows camera={{ position: [0, 3, 7], fov: 45 }}>
       <ambientLight intensity={0.5} color="#fff4e6" />
 
@@ -38,6 +39,7 @@ const ContactExperience = () => {
         <Computer />
       </group>
     </Canvas>
+   
   );
 };
 
