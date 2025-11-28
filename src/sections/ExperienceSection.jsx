@@ -2,8 +2,59 @@ import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import { expCards } from '../constants/index'
 import GlowCard from '../components/GlowCard'
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/all';
+
+gsap.registerPlugin(ScrollTrigger);
+
 
 const ExperienceSection = () => {
+  useGSAP(() => {
+    gsap.utils.toArray('.timeline-card').forEach((card) => {
+      gsap.from(card, {
+        xPercent: -100,
+        opacity: 0,
+        transformOrigin: 'left left',
+        duration: 1,
+        ease: 'power2.inOut',
+        scrollTrigger: {
+          trigger: card,
+          start: 'top 80%'
+        }
+      })
+    })
+
+    gsap.to('.timeline', {
+      transformOrigin: 'bottom bottom',
+      ease: 'power1.inOut',
+      scrollTrigger: {
+        trigger: '.timeline',
+        start: 'top center',
+        end: '70% center',
+        onUpdate: (self) => {
+          gsap.to('.timeline', {
+            scaleY: 1 - self.progress,
+          })
+        }
+      }
+    })
+
+     gsap.utils.toArray('.expText').forEach((text) => {
+      gsap.from(text, {
+        xPercent: 0,
+        opacity: 0,
+        transformOrigin: 'left left',
+        duration: 1,
+        ease: 'power2.inOut',
+        scrollTriggerUI: {
+          trigger: text,
+          start: 'top 06%'
+        }
+      })
+    })
+  }, []);
+
   return (
     <section 
     id="experience" 
