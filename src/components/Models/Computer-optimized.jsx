@@ -7,7 +7,7 @@ Files: computer-optimized.glb [486.38KB] > C:\Users\shaiy\Documents\GitHub\web-d
 import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
-export function Model(props) {
+export function Computer(props) {
   const { nodes, materials } = useGLTF('/computer-optimized-transformed.glb')
   return (
     <group {...props} dispose={null}>
