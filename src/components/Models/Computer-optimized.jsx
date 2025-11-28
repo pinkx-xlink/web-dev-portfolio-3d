@@ -8,15 +8,15 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Computer(props) {
-  const { nodes, materials } = useGLTF('/computer-optimized-transformed.glb')
+  const { nodes, materials } = useGLTF('/models/computer-optimized-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
-        <mesh geometry={nodes.Cube000_ComputerDesk_0001_1.geometry} material={materials['ComputerDesk.001']} />
-        <mesh geometry={nodes.Cube000_ComputerDesk_0001_2.geometry} material={materials['FloppyDisk.001']} />
+        <mesh castShadows receiveShadows geometry={nodes.Cube000_ComputerDesk_0001_1.geometry} material={materials['ComputerDesk.001']} />
+        <mesh castShadows receiveShadows geometry={nodes.Cube000_ComputerDesk_0001_2.geometry} material={materials['FloppyDisk.001']} />
       </group>
     </group>
   )
 }
 
-useGLTF.preload('/computer-optimized-transformed.glb')
+useGLTF.preload('/models/computer-optimized-transformed.glb')
