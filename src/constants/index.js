@@ -163,17 +163,17 @@ const techStackIcons = [
 
 const expCards = [
     {
-    review: "During my contract, I worked independantly using ERP systems, SMS, and SAP to analyze and process thousands of accurate inventory adjustments per week, and collaborated with my team remotely through Outlook and Teams. My mission as the IT Programmer Analyst was to research and rectify thousands of inventory discrepancies caused by a software update, and I was able to help the team achieve this goal weeks ahead of schedule.",
-    imgPath: "/images/zimmer-logo-resized.png",
+    review: "In 2024 I leveraged my experience in customer service, shipping, inventory control, & computer literacy to build and launch my first business online with the goal to provide sustainable clothing options worldwide. We've hit 85+ sales in our first year, and are proud of our 100% customer satisfaction rate!",
+    imgPath: "/images/ssc-logo.png",
     logoPath: "/images/logo1.png",
-    title: "IT Programmer Analyst",
+    title: "Business Owner",
     company: "Sugar Sprite Crochet",
-    date: "May 2025 - August 2025",
+    date: "August 2024 - Present",
     location: "Remote",
     responsibilities: [
-      "Researched and resolved inventory discrepancies.",
-      "Collaborated closely with Inventory Control team to ensure seamless user experiences.",
-      "Processed thousands of inventory requests & transactions per week.",
+      "Create and market digital and physical products (e-commerce).",
+      "Maintain websites and social media presence.",
+      "Perform basic bookkeeping, analytics, content creation, and strategizing.",
     ],
   },
   {
