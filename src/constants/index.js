@@ -173,6 +173,7 @@ const expCards = [
     responsibilities: [
       "Create and market digital and physical products (e-commerce).",
       "Maintain websites and social media presence.",
+      "Design logos, listings, and products.",
       "Perform basic bookkeeping, analytics, content creation, and strategizing.",
     ],
   },
