@@ -119,6 +119,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
+   {
+    name: "WordPress Developer",
+    modelPath: "/models/wordpress.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
   {
     name: "Python Developer",
     modelPath: "/models/python-transformed.glb",
