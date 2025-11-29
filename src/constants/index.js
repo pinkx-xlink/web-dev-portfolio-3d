@@ -153,15 +153,15 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "During my 3-month contract, I worked independantly and collaborated with a team remotely through Outlook and Teams to resolve mass inventory discrepancies caused by the introduction of new inventory software.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/zimmer-logo.png",
     title: "IT Programmer Analyst @ Zimmer Biomet",
     date: "May 2025 - August 2025",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Researched and resolved inventory discrepancies.",
+      "Collaborated closely with Inventory Control team to ensure seamless user experiences.",
+      "Processed thousands of inventory requests & transactions per week.",
     ],
   },
   {
