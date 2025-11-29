@@ -62,17 +62,17 @@ const ShowcaseSection = () => {
                     <div className='project-list-wrapper overflow-hidden'>
                         <div className="project" ref={project2Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src="images/project2.png" alt="Library Management Platform" />
+                                <img src="images/proservices-screenshot.png" alt="Creative Contractors Services Mockup" />
                             </div>
-                            <h2>Library Management Platform</h2>
+                            <h2>A mockup website for the latest and greatest online hub for hiring the creative & tech savy. Built with ReactJS and TailwindCSS.</h2>
                         </div>
 
 
                          <div className="project" ref={project3Ref}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
-                                <img src="images/project3.png" alt="YC Directory" />
+                                <img src="images/google-clone.png" alt="Google Clone" />
                             </div>
-                            <h2>YC directory - a startup showcase app</h2>
+                            <h2>Google Clone</h2>
                         </div>
                     </div>
 
