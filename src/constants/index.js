@@ -163,7 +163,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "During my 3-month contract, I worked independantly and collaborated with a team remotely through Outlook and Teams to resolve mass inventory discrepancies caused by the introduction of new inventory software.",
+    review: "During my contract, I worked independantly using ERP systems, SMS, and SAP to analyze and process thousands of accurate inventory adjustments per week, and collaborated with my team remotely through Outlook and Teams. My mission as the IT Programmer Analyst was to research and rectify thousands of inventory discrepancies caused by a software update, and I was able to help the team achieve this goal weeks ahead of schedule.",
     imgPath: "/images/zimmer-logo-resized.png",
     logoPath: "/images/logo1.png",
     title: "IT Programmer Analyst",
