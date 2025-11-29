@@ -122,8 +122,8 @@ const techStackIcons = [
    {
     name: "WordPress Developer",
     modelPath: "/models/wordpress.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    scale: 0.17,
+    rotation: [14, Math.PI / 21, 0],
   },
   {
     name: "Python Developer",
@@ -135,7 +135,7 @@ const techStackIcons = [
     name: "Backend Developer",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    rotation: [0, Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
