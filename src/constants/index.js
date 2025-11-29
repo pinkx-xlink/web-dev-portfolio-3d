@@ -166,7 +166,8 @@ const expCards = [
     review: "During my 3-month contract, I worked independantly and collaborated with a team remotely through Outlook and Teams to resolve mass inventory discrepancies caused by the introduction of new inventory software.",
     imgPath: "/images/zimmer-logo-resized.png",
     logoPath: "/images/logo1.png",
-    title: "IT Programmer Analyst @ Zimmer Biomet",
+    title: "IT Programmer Analyst",
+    company: "Zimmer Biomet",
     date: "May 2025 - August 2025",
     location: "Remote",
     responsibilities: [
@@ -179,7 +180,8 @@ const expCards = [
     review: "During my time at Archway, I had the privilege of collecting a wide variety of hands-on experience; from picking orders to being trained in SQL and HAZMAT, from temp to administrative assistant submitting timesheets to the temp agencies; from project management and processing mail, to data entry, filing, and scheduling, my time at Archway servd to hone my communcation skills, problem-solving, and teamwork.",
     imgPath: "/images/archway-logo-resized.png",
     logoPath: "/images/logo2.png",
-    title: "Administrative Assistant @ Archway Marketing Services",
+    title: "Administrative Assistant",
+    company: " Archway Marketing Services",
     date: "December 2020 - March 2025",
     location: "South Bend, IN",
     responsibilities: [
@@ -192,7 +194,8 @@ const expCards = [
     review: "As a full-time employee I excelled in a range of responsibilities, from sales and customer service, to processing payments and presenting product/color palette recommendations.",
     imgPath: "/images/lowes-logo-resized.png",
     logoPath: "/images/logo3.png",
-    title: "Sales Associate @ Lowe's",
+    title: "Sales Associate",
+    company: "Lowe's",
     date: "February 2019 - August 2020",
     location: "Mishawaka, IN",
     responsibilities: [

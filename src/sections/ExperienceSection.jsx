@@ -89,7 +89,7 @@ const ExperienceSection = () => {
                         </div>
 
                         <div>
-                          <h1 className="font-semibold text-3xl">{card.title}</h1>
+                          <h1 className="font-semibold text-3xl">{card.title} @ {card.company}</h1>
                           <span className='flex items-center lg:gap-25 gap-7 justify-center'>
                             <p className='my-5 text-white-50'>
                               🗓️ {card.date}  
