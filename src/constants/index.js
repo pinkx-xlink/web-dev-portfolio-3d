@@ -154,8 +154,8 @@ const techStackIcons = [
 const expCards = [
   {
     review: "During my 3-month contract, I worked independantly and collaborated with a team remotely through Outlook and Teams to resolve mass inventory discrepancies caused by the introduction of new inventory software.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/zimmer-logo.png",
+    imgPath: "/images/zimmer-logo.png",
+    logoPath: "/images/logo1.png",
     title: "IT Programmer Analyst @ Zimmer Biomet",
     date: "May 2025 - August 2025",
     responsibilities: [
@@ -166,7 +166,7 @@ const expCards = [
   },
   {
     review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    imgPath: "/images/archway-logo.png",
     logoPath: "/images/logo2.png",
     title: "Administrative Assistant @ Archway Marketing Services",
     date: "December 2020 - March 2025",
@@ -178,7 +178,7 @@ const expCards = [
   },
   {
     review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    imgPath: "/images/lowes-logo.png",
     logoPath: "/images/logo3.png",
     title: "Sales Associate @ Lowe's",
     date: "February 2019 - August 2020",
