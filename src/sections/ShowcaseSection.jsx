@@ -47,12 +47,12 @@ const ShowcaseSection = () => {
                     {/* LEFT  */}
                     <div className="first-project-wrapper" ref={project1Ref}>
                         <div className="image-wrapper">
-                            <img src='/images/project1.png' alt="Ryde" />
+                            <img src='/images/pokemon-game.png' alt="Ryde" />
                         </div>
                         <div className='text-content'>
-                            <h2>On demand rides made simple w/ a powerful user-friendly app called Ryde </h2>
+                            <h2>Pokemon style game </h2>
                             <p className="text-white-50 md:text-xl">
-                                an app built with ____ for fast user experiences ... talk about obstacles faced while building app, and tech used
+                                An app built with JavaScript and GSAP animations. 
                             </p>
                         </div>
                     </div>
