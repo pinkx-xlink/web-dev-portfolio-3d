@@ -5,6 +5,7 @@ import GlowCard from '../components/GlowCard'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/all';
+import { Circle } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -85,7 +86,8 @@ const ExperienceSection = () => {
                       <div className='expText flex xl:gap-20 md:gap-10 gap-5 
                     relative z-20'>
                         <div className='timeline-logo'>
-                          <img src={card.logoPath} alt="logo" />
+                          {/* <img src={card.logoPath} alt="logo" /> */}
+                          <Circle color={card.color}/>
                         </div>
 
                         <div>

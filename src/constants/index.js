@@ -170,6 +170,7 @@ const expCards = [
     company: "Sugar Sprite Crochet",
     date: "August 2024 - Present",
     location: "Remote",
+    color: "pink",
     responsibilities: [
       "Create and market digital and physical products (e-commerce).",
       "Maintain websites and social media presence.",
@@ -185,6 +186,7 @@ const expCards = [
     company: "Zimmer Biomet",
     date: "May 2025 - August 2025",
     location: "Remote",
+    color: "blue",
     responsibilities: [
       "Researched and resolved inventory discrepancies.",
       "Collaborated closely with Inventory Control team to ensure seamless user experiences.",
@@ -199,6 +201,7 @@ const expCards = [
     company: " Archway Marketing Services",
     date: "December 2020 - March 2025",
     location: "South Bend, IN",
+    color: "red",
     responsibilities: [
       "Led the development of a Power BI & SQL inventory tracking & research dashboard, focusing on enhanced search capabilities compared to the standard Oracle WMS.",
       "Collaborated with fulfilment, supply chains, dispatch, clients, my teams, and other locations to ensure successful and timely results for customers.",
@@ -213,6 +216,7 @@ const expCards = [
     company: "Lowe's",
     date: "February 2019 - August 2020",
     location: "Mishawaka, IN",
+    color: "navy",
     responsibilities: [
       "Performed daily equipment cleaning and maintenance.",
       "Kept product stocked and organized.",
