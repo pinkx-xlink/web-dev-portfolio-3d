@@ -165,27 +165,28 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    review: "During my time at Archway, I had the privilege of collecting a wide variety of hands-on experience; from picking orders to being trained in SQL and HAZMAT, from temp to administrative assistant submitting timesheets to the temp agencies; from project management and processing mail, to data entry, filing, and scheduling, my time at Archway servd to hone my communcation skills, problem-solving, and teamwork.",
     imgPath: "/images/archway-logo-resized.png",
     logoPath: "/images/logo2.png",
     title: "Administrative Assistant @ Archway Marketing Services",
     date: "December 2020 - March 2025",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Led the development of a Power BI & SQL inventory tracking & research dashboard, focusing on enhanced search capabilities compared to the standard Oracle WMS.",
+      "Collaborated with fulfilment, supply chains, dispatch, clients, my teams, and other locations to ensure successful and timely results for customers.",
+      "Traveled to sister locations to contribute to largescale projects when necessary.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    review: "As a full-time employee I excelled in a range of responsibilities, from sales and customer service, to processing payments and presenting product/color palette recommendations.",
     imgPath: "/images/lowes-logo-resized.png",
     logoPath: "/images/logo3.png",
     title: "Sales Associate @ Lowe's",
     date: "February 2019 - August 2020",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Performed daily equipment cleaning and maintenance.",
+      "Kept product stocked and organized.",
+      "Coordinated with the sales team to provide excellence customer service.",
+      "Assisted customers in making informed purchases, and place special/online orders for guests."
     ],
   },
 ];
