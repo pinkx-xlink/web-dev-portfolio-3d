@@ -21,7 +21,7 @@ const NavBar = () => {
   'not-scrolled'}`}>
         <div className='inner'>
             <a className='logo' href="#hero">
-                Shaiyan | Y
+                Shaiyan | Younkin
             </a>
 
             <nav className="desktop">
