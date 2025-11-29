@@ -168,6 +168,7 @@ const expCards = [
     logoPath: "/images/logo1.png",
     title: "IT Programmer Analyst @ Zimmer Biomet",
     date: "May 2025 - August 2025",
+    location: "Remote",
     responsibilities: [
       "Researched and resolved inventory discrepancies.",
       "Collaborated closely with Inventory Control team to ensure seamless user experiences.",
@@ -180,6 +181,7 @@ const expCards = [
     logoPath: "/images/logo2.png",
     title: "Administrative Assistant @ Archway Marketing Services",
     date: "December 2020 - March 2025",
+    location: "South Bend, IN",
     responsibilities: [
       "Led the development of a Power BI & SQL inventory tracking & research dashboard, focusing on enhanced search capabilities compared to the standard Oracle WMS.",
       "Collaborated with fulfilment, supply chains, dispatch, clients, my teams, and other locations to ensure successful and timely results for customers.",
@@ -192,6 +194,7 @@ const expCards = [
     logoPath: "/images/logo3.png",
     title: "Sales Associate @ Lowe's",
     date: "February 2019 - August 2020",
+    location: "Mishawaka, IN",
     responsibilities: [
       "Performed daily equipment cleaning and maintenance.",
       "Kept product stocked and organized.",
