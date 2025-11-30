@@ -147,6 +147,23 @@ const techStackImgs = [
     name: "Tailwind CSS",
     imgPath: "/images/tailwind-img.png",
   },
+    {
+    name: "HTML",
+    imgPath: "/images/html-img.png",
+  },
+    {
+    name: "JavaScript",
+    imgPath: "/images/javascript-img.png",
+  },
+    {
+    name: "PostgresSQL",
+    imgPath: "/images/postgres-sql-img.png",
+  },
+    {
+    name: "TypeScript",
+    imgPath: "/images/typescript-img.png",
+  },
+
   // {
   //   name: "React Developer",
   //   imgPath: "/images/logos/react.png",
