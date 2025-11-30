@@ -45,7 +45,7 @@ const TechStack = () => {
                     </div>
                 ))}
 
-                {/* // To use an image if 3D model is unavailable:
+                 {/* // To use an image if 3D model is unavailable: */}
                 {techStackImgs.map((icon) => (
                      <div key={icon.name} className='card-border tech-card 
                 overflow-hidden group xl:rounded-full rounded-lg'>
@@ -60,7 +60,7 @@ const TechStack = () => {
                     </div>
                 </div>
 
-                ))} */}
+                ))} 
             </div>
 
         </div>
