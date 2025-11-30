@@ -39,7 +39,7 @@ const TechStack = () => {
                         </div>
 
                         <div className='padding-x w-full'>
-                            <p>{icon.name}</p> 
+                            <p className='text-xs'>{icon.name}</p> 
                         </div>
                       </div>
                     </div>
@@ -55,7 +55,7 @@ const TechStack = () => {
                             <img src={icon.imgPath} />
                         </div>
                         <div className='padding-x w-full'>
-                            <p>{icon.name}</p>
+                            <p className='text-xs'>{icon.name}</p>
                         </div>
                     </div>
                 </div>

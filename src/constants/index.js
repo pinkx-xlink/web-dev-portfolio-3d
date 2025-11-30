@@ -171,13 +171,13 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
    {
-    name: "WordPress Developer",
+    name: "WordPress",
     modelPath: "/models/wordpress.glb",
     scale: 0.17,
     rotation: [14, Math.PI / 21, 0],
@@ -189,19 +189,19 @@ const techStackIcons = [
   //   rotation: [0, 0, 0],
   // },
   {
-    name: "Backend Developer",
+    name: "NodeJS - Backend",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Three.js - 3D Modeling",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
