@@ -73,7 +73,7 @@ const ShowcaseSection = () => {
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
                 <img
-                  src="images/sugar-sprite-crochet.png"
+                  src="/images/sugar-sprite-crochet.png"
                   alt="Sugar Sprite Crochet Official Website"
                 />
               </div>
