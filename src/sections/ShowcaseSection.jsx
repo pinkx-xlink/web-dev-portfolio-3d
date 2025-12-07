@@ -92,7 +92,20 @@ const ShowcaseSection = () => {
               <div className="image-wrapper bg-[#ffe7eb]">
                 <img src="images/google-clone.png" alt="Google Clone" />
               </div>
-              <h2>Google Clone</h2>
+              <h2>
+                <a
+                  href="https://shaiyans-google-clone.netlify.app/"
+                  target="_blank"
+                >
+                  Google Clone
+                </a>
+              </h2>
+              <p>
+                A simple but stylish Google clone made to showcase my CSS
+                skills. Made using HTML, CSS, & JavaScript. Warning: NOT the
+                real Google! (Any searches will redirect the user to the{" "}
+                <i>real</i> Google.)
+              </p>
             </div>
           </div>
         </div>
