@@ -73,15 +73,19 @@ const ShowcaseSection = () => {
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
                 <img
-                  src="images/proservices-screenshot.png"
-                  alt="Creative Contractors Services Mockup"
+                  src="images/sugar-sprite-crochet.png"
+                  alt="Sugar Sprite Crochet Official Website"
                 />
               </div>
               <h2>
-                A mockup website for the latest and greatest online hub for
-                hiring the creative & tech savy. Built with ReactJS and
-                TailwindCSS.
+                <a href="https://sugarspritecrochet.com/" target="_blank">
+                  Sugar Sprite Crochet Official Website
+                </a>
               </h2>
+              <p>
+                The official website for Sugar Sprite Crochet. Built with HTML,
+                JavaScript, React, and TailwindCSS.
+              </p>
             </div>
 
             <div className="project" ref={project3Ref}>
