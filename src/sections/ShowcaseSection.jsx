@@ -59,11 +59,13 @@ const ShowcaseSection = () => {
             <div className="text-content">
               <h2>
                 <a href="https://pokemonstylegame.netlify.app/" target="_blank">
-                  Pokemon style game
+                  Pokemon Style Game - DEMO
                 </a>{" "}
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with JavaScript and GSAP animations.
+                Explore the land and battle monsters! This project was my
+                introduction to GSAP animations, and was built on nostalgia,
+                JavaScript, and HTML Canvas.
               </p>
             </div>
           </div>
