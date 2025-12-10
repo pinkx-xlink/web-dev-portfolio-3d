@@ -52,20 +52,19 @@ const ShowcaseSection = () => {
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
               <img
-                src="/images/pokemon-game.png"
+                src="/images/admin-dashboard2.png"
                 alt="Pokemone Style Game Project"
               />
             </div>
             <div className="text-content">
               <h2>
                 <a href="https://pokemonstylegame.netlify.app/" target="_blank">
-                  Pokemon Style Game - DEMO
+                  Admin Dashboard
                 </a>{" "}
               </h2>
               <p className="text-white-50 md:text-xl">
-                Explore the land and battle monsters! This project was my
-                introduction to GSAP animations, and was built on nostalgia,
-                JavaScript, and HTML Canvas.
+                All your business's statistics at a glance. Made using
+                JavaScript, HTML, TailwindCSS, React, and Nivo charts.
               </p>
             </div>
           </div>
@@ -160,7 +159,7 @@ const ShowcaseSection = () => {
             <div className="first-project-wrapper" ref={project1Ref}>
               <div className="image-wrapper">
                 <img
-                  src="/images/admin-dashboard2.png"
+                  src="/images/pokemon-game.png"
                   alt="Pokemone Style Game Project"
                 />
               </div>
@@ -170,12 +169,13 @@ const ShowcaseSection = () => {
                     href="https://pokemonstylegame.netlify.app/"
                     target="_blank"
                   >
-                    Admin Dashboard
+                    Pokemon Style Game - DEMO
                   </a>{" "}
                 </h2>
                 <p className="text-white-50 md:text-xl">
-                  All your business's statistics at a glance. Made using
-                  JavaScript, HTML, TailwindCSS, React, and Nivo charts.
+                  Explore the land and battle monsters! This project was my
+                  introduction to GSAP animations, and was built on nostalgia,
+                  JavaScript, and HTML Canvas.
                 </p>
               </div>
             </div>
