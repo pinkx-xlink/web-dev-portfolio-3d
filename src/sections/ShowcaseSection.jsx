@@ -53,12 +53,12 @@ const ShowcaseSection = () => {
             <div className="image-wrapper">
               <img
                 src="/images/admin-dashboard2.png"
-                alt="Pokemone Style Game Project"
+                alt="Admin Dashboard Project"
               />
             </div>
             <div className="text-content">
               <h2>
-                <a href="https://pokemonstylegame.netlify.app/" target="_blank">
+                <a href="/" target="_blank">
                   Admin Dashboard
                 </a>{" "}
               </h2>
