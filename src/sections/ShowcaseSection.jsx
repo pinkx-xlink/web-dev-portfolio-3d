@@ -128,18 +128,18 @@ const ShowcaseSection = () => {
               <div className="project" ref={project2Ref}>
                 <div className="image-wrapper bg-[#ffefdb]">
                   <img
-                    src="/images/sugar-sprite-crochet.png"
-                    alt="Sugar Sprite Crochet Official Website"
+                    src="/images/fighter-game.png"
+                    alt="Old School 2 Player Fighter Game Project"
                   />
                 </div>
                 <h2>
-                  <a href="https://sugarspritecrochet.com/" target="_blank">
-                    Sugar Sprite Crochet Official Website
+                  <a href="https://fighty-game.netlify.app/" target="_blank">
+                    My Lil' Fighty Game
                   </a>
                 </h2>
                 <p>
-                  The official website for Sugar Sprite Crochet. Built with
-                  HTML, JavaScript, React, and TailwindCSS.
+                  A simple old school two-player fighter game built with HTML,
+                  CSS, and JavaScript.
                 </p>
               </div>
 
