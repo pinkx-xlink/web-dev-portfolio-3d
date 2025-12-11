@@ -58,9 +58,9 @@ const ShowcaseSection = () => {
             </div>
             <div className="text-content">
               <h2>
-                <a href="/" target="_blank">
-                  Admin Dashboard
-                </a>{" "}
+                {/* <a href="" target="_blank"> */}
+                Admin Dashboard
+                {/* </a> */}
               </h2>
               <p className="text-white-50 md:text-xl">
                 All your business's statistics at a glance. Made using
