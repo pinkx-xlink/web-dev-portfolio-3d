@@ -72,7 +72,7 @@ const ShowcaseSection = () => {
           {/* RIGHT  */}
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
+              <div className="image-wrapper bg-[#ff92c5ba]">
                 <img
                   src="/images/sugar-sprite-crochet.png"
                   alt="Sugar Sprite Crochet Official Website"
@@ -90,31 +90,20 @@ const ShowcaseSection = () => {
             </div>
 
             <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
+              <div className="image-wrapper bg-[#92c5ffba]">
                 <img
-                  src="images/minecraft-site.png"
-                  alt="Minecraft Getaway Resort Project"
+                  src="/images/fighter-game.png"
+                  alt="Old School 2 Player Fighter Game Project"
                 />
               </div>
               <h2>
-                <a
-                  href="https://minecraft-getaway-resort.netlify.app/"
-                  target="_blank"
-                >
-                  Minecraft Getaway Resort Website
+                <a href="https://fighty-game.netlify.app/" target="_blank">
+                  My Lil' Fighty Game
                 </a>
               </h2>
               <p>
-                My entry for the MHL's Cloud Week Challenge: my first Hackathon!
-                The rules were simple: 1. to make a website using only HTML and
-                CSS in under a week, and 2. make whatever you want, as long as
-                you learn something.
-                <br />
-                This project helped me gain a better understanding of how to
-                implement assets (including music and fonts), how to create
-                stunning effects without JavaScript, and how to use CSS to make
-                simple elements on the page look like they came came straight
-                from the game itself!
+                A simple old school two-player fighter game built with HTML,
+                CSS, and JavaScript.
               </p>
             </div>
           </div>
@@ -126,25 +115,36 @@ const ShowcaseSection = () => {
             {/* LEFT  */}
             <div className="project-list-wrapper overflow-hidden">
               <div className="project" ref={project2Ref}>
-                <div className="image-wrapper bg-[#ffefdb]">
+                <div className="image-wrapper bg-[#92c5ffba]">
                   <img
-                    src="/images/fighter-game.png"
-                    alt="Old School 2 Player Fighter Game Project"
+                    src="images/minecraft-site.png"
+                    alt="Minecraft Getaway Resort Project"
                   />
                 </div>
                 <h2>
-                  <a href="https://fighty-game.netlify.app/" target="_blank">
-                    My Lil' Fighty Game
+                  <a
+                    href="https://minecraft-getaway-resort.netlify.app/"
+                    target="_blank"
+                  >
+                    Minecraft Getaway Resort Website
                   </a>
                 </h2>
                 <p>
-                  A simple old school two-player fighter game built with HTML,
-                  CSS, and JavaScript.
+                  My entry for the MHL's Cloud Week Challenge: my first
+                  Hackathon! The rules were simple: 1. to make a website using
+                  only HTML and CSS in under a week, and 2. make whatever you
+                  want, as long as you learn something.
+                  <br />
+                  This project helped me gain a better understanding of how to
+                  implement assets (including music and fonts), how to create
+                  stunning effects without JavaScript, and how to use CSS to
+                  make simple elements on the page look like they came came
+                  straight from the game itself!
                 </p>
               </div>
 
               <div className="project" ref={project3Ref}>
-                <div className="image-wrapper bg-[#ffe7eb]">
+                <div className="image-wrapper bg-[#ff92c5ba]">
                   <img src="images/google-clone.png" alt="Google Clone" />
                 </div>
                 <h2>
