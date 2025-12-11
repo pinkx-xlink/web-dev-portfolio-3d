@@ -91,21 +91,30 @@ const ShowcaseSection = () => {
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="images/google-clone.png" alt="Google Clone" />
+                <img
+                  src="images/minecraft-site.png"
+                  alt="Minecraft Getaway Resort Project"
+                />
               </div>
               <h2>
                 <a
-                  href="https://shaiyans-google-clone.netlify.app/"
+                  href="https://minecraft-getaway-resort.netlify.app/"
                   target="_blank"
                 >
-                  Google Clone
+                  Minecraft Getaway Resort Website
                 </a>
               </h2>
               <p>
-                A simple but stylish Google clone made to showcase my CSS
-                skills. Made using HTML, CSS, & JavaScript. Warning: NOT the
-                real Google! (Any searches will redirect the user to the{" "}
-                <i>real</i> Google.)
+                My entry for the MHL's Cloud Week Challenge: my first Hackathon!
+                The rules were simple: 1. to make a website using only HTML and
+                CSS in under a week, and 2. make whatever you want, as long as
+                you learn something.
+                <br />
+                This project helped me gain a better understanding of how to
+                implement assets (including music and fonts), how to create
+                stunning effects without JavaScript, and how to use CSS to make
+                simple elements on the page look like they came came straight
+                from the game itself!
               </p>
             </div>
           </div>
