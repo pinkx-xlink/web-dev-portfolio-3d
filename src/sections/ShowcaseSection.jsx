@@ -110,7 +110,7 @@ const ShowcaseSection = () => {
         </div>
 
         {/* BOTTOM */}
-        <div className="w-full">
+        <div className="w-full" id="bottom">
           <div className="showcaselayout">
             {/* LEFT  */}
             <div className="project-list-wrapper overflow-hidden">
