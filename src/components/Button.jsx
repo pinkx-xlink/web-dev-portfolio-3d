@@ -1,4 +1,4 @@
-const arrowImg = require("../../public/arrow-down.svg").default;
+import { arrowImg } from "../../public/arrow-down.svg";
 const Button = ({ text, className, id }) => {
   return (
     <a
