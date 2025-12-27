@@ -1,4 +1,4 @@
-import arrowImg from "../public/images/arrow-down.svg";
+import arrowImg from "/public/images/arrow-down.svg";
 
 const Button = ({ text, className, id }) => {
   return (
