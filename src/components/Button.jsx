@@ -24,7 +24,7 @@ const Button = ({ text, className, id }) => {
         <div className="arrow-wrapper">
           {/* have to add the .. before /public so that the image loads when
           deployed to Netlify */}
-          <img src="../public/images/arrow-down.svg" alt="⬇️" />
+          <img src="/public/images/arrow-down.svg" alt="⬇️" />
         </div>
       </div>
     </a>
