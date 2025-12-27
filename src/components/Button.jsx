@@ -1,5 +1,3 @@
-import arrowImg from "/public/images/arrow-down.svg";
-
 const Button = ({ text, className, id }) => {
   return (
     <a
@@ -26,7 +24,7 @@ const Button = ({ text, className, id }) => {
         <div className="arrow-wrapper">
           {/* have to add the .. before /public so that the image loads when
           deployed to Netlify */}
-          <img src={arrowImg} alt="⬇️" />
+          <img src="/public/images/arrow-down.svg" alt="⬇️" />
         </div>
       </div>
     </a>
