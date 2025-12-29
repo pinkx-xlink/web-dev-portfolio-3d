@@ -108,81 +108,85 @@ const ShowcaseSection = () => {
             </div>
           </div>
         </div>
-      </div>
-      {/* BOTTOM */}
-      <div className="w-full" id="bottom">
-        <div className="showcaselayout">
-          {/* LEFT  */}
-          <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#92c5ffba]">
+
+        {/* BOTTOM */}
+        <div className="w-full" id="bottom">
+          <div className="showcaselayout">
+            {/* LEFT  */}
+            <div className="project-list-wrapper overflow-hidden">
+              <div className="project" ref={project2Ref}>
+                <div className="image-wrapper bg-[#92c5ffba]">
+                  <img
+                    src="images/minecraft-site.png"
+                    alt="Minecraft Getaway Resort Project"
+                  />
+                </div>
+                <h2>
+                  <a
+                    href="https://minecraft-getaway-resort.netlify.app/"
+                    target="_blank"
+                  >
+                    Minecraft Getaway Resort Website
+                  </a>
+                </h2>
+                <p>
+                  My entry for the MHL's Cloud Week Challenge: my first
+                  Hackathon! The rules were simple: 1. to make a website using
+                  only HTML and CSS in under a week, and 2. make whatever you
+                  want, as long as you learn something.
+                  <br />
+                  This project helped me gain a better understanding of how to
+                  implement assets (including music and fonts), how to create
+                  stunning effects without JavaScript, and how to use CSS to
+                  make simple elements on the page look like they came came
+                  straight from the game itself!
+                </p>
+              </div>
+
+              <div className="project" ref={project3Ref}>
+                <div className="image-wrapper bg-[#ff92c5ba]">
+                  <img src="images/google-clone.png" alt="Google Clone" />
+                </div>
+                <h2>
+                  <a
+                    href="https://shaiyans-google-clone.netlify.app/"
+                    target="_blank"
+                  >
+                    Google Clone
+                  </a>
+                </h2>
+                <p>
+                  A simple but stylish Google clone made to showcase my CSS
+                  skills. Made using HTML, CSS, & JavaScript. Warning: NOT the
+                  real Google! (Any searches will redirect the user to the{" "}
+                  <i>real</i> Google.)
+                </p>
+              </div>
+            </div>
+
+            {/* RIGHT  */}
+            <div className="first-project-wrapper" ref={project1Ref}>
+              <div className="image-wrapper">
                 <img
-                  src="images/minecraft-site.png"
-                  alt="Minecraft Getaway Resort Project"
+                  src="/images/pokemon-game.png"
+                  alt="Pokemone Style Game Project"
                 />
               </div>
-              <h2>
-                <a
-                  href="https://minecraft-getaway-resort.netlify.app/"
-                  target="_blank"
-                >
-                  Minecraft Getaway Resort Website
-                </a>
-              </h2>
-              <p>
-                My entry for the MHL's Cloud Week Challenge: my first Hackathon!
-                The rules were simple: 1. to make a website using only HTML and
-                CSS in under a week, and 2. make whatever you want, as long as
-                you learn something.
-                <br />
-                This project helped me gain a better understanding of how to
-                implement assets (including music and fonts), how to create
-                stunning effects without JavaScript, and how to use CSS to make
-                simple elements on the page look like they came came straight
-                from the game itself!
-              </p>
-            </div>
-
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ff92c5ba]">
-                <img src="images/google-clone.png" alt="Google Clone" />
+              <div className="text-content">
+                <h2>
+                  <a
+                    href="https://pokemonstylegame.netlify.app/"
+                    target="_blank"
+                  >
+                    Pokemon Style Game - DEMO
+                  </a>{" "}
+                </h2>
+                <p className="text-white-50 md:text-xl">
+                  Explore the land and battle monsters! This project was my
+                  introduction to GSAP animations, and was built on nostalgia,
+                  JavaScript, and HTML Canvas.
+                </p>
               </div>
-              <h2>
-                <a
-                  href="https://shaiyans-google-clone.netlify.app/"
-                  target="_blank"
-                >
-                  Google Clone
-                </a>
-              </h2>
-              <p>
-                A simple but stylish Google clone made to showcase my CSS
-                skills. Made using HTML, CSS, & JavaScript. Warning: NOT the
-                real Google! (Any searches will redirect the user to the{" "}
-                <i>real</i> Google.)
-              </p>
-            </div>
-          </div>
-
-          {/* RIGHT  */}
-          <div className="first-project-wrapper" ref={project1Ref}>
-            <div className="image-wrapper">
-              <img
-                src="/images/pokemon-game.png"
-                alt="Pokemone Style Game Project"
-              />
-            </div>
-            <div className="text-content">
-              <h2>
-                <a href="https://pokemonstylegame.netlify.app/" target="_blank">
-                  Pokemon Style Game - DEMO
-                </a>{" "}
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                Explore the land and battle monsters! This project was my
-                introduction to GSAP animations, and was built on nostalgia,
-                JavaScript, and HTML Canvas.
-              </p>
             </div>
           </div>
         </div>
