@@ -5,7 +5,7 @@ import { useGSAP } from "@gsap/react";
 import Popup from "reactjs-popup";
 
 import { Container, Grid } from "@mui/material";
-import InfoCard from "./components/Card";
+import InfoCard from "../components/Card";
 
 gsap.registerPlugin(ScrollTrigger);
 
