@@ -37,34 +37,34 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
       </CardContent>
       {buttonText && (
         <CardActions>
-          <Button size="small" onClick={onButtonClick}>
+          {/* <Button size="small" onClick={onButtonClick}>
             {buttonText}
-          </Button>
+          </Button> */}
+          <Popup trigger={<button>More</button>} modal nested>
+            {(close) => (
+              <div
+                style={{
+                  padding: "20px",
+                  textAlign: "center",
+                  backgroundColor: "black",
+                  height: "100vh",
+                  width: "100vw",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <img src={image} alt={title} style={{ maxWidth: "80%" }} />
+                <h3>{title}</h3>
+                <p className="text-white-50 md:text-xl">{description}</p>
+                <p>Github Repo: </p>
+                <button onClick={close}>Close</button>
+              </div>
+            )}
+          </Popup>
         </CardActions>
       )}
-      <Popup trigger={<button>More</button>} modal nested>
-        {(close) => (
-          <div
-            style={{
-              padding: "20px",
-              textAlign: "center",
-              backgroundColor: "black",
-              height: "100vh",
-              width: "100vw",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <img src={image} alt={title} style={{ maxWidth: "80%" }} />
-            <h3>{title}</h3>
-            <p className="text-white-50 md:text-xl">{description}</p>
-            <p>Github Repo: </p>
-            <button onClick={close}>Close</button>
-          </div>
-        )}
-      </Popup>
     </Card>
   );
 };

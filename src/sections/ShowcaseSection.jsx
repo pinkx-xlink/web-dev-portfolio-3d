@@ -49,16 +49,11 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
-      <Container sx={{ mt: 4 }} className="w-full">
-        <Grid container spacing={3} className="showcaselayout">
-          <Grid
-            item
-            xs={12}
-            sm={6}
-            md={4}
-            className="first-project-wrapper"
-            ref={project1Ref}
-          >
+      <Container sx={{ mt: 4 }}>
+        {/* className="w-full" ^ */}
+        <Grid container spacing={3}>
+          {/* className="showcaselayout" ^ */}
+          <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
             <InfoCard
               image="/images/admin-dashboard2.png"
               title="Admin Dashboard"
@@ -70,29 +65,25 @@ const ShowcaseSection = () => {
             />
           </Grid>
 
-          <div
+          {/* <div
             className="project-list-wrapper"
             // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
-          >
-            <Grid item xs={12} sm={6} md={4}>
-              <InfoCard
-                className="project"
-                ref={project2Ref}
-                image="/images/sugar-sprite-crochet.png"
-                title="Sugar Sprite Crochet"
-                description="The official website for Sugar Sprite Crochet. Built with HTML,
+          > */}
+          <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
+            <InfoCard
+              image="/images/sugar-sprite-crochet.png"
+              title="Sugar Sprite Crochet"
+              description="The official website for Sugar Sprite Crochet. Built with HTML,
                 JavaScript, React, and TailwindCSS."
-                buttonText="Learn More"
-                onButtonClick={() => alert("More info about AI Assistant")}
-              />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4}>
-              <InfoCard
-                className="project"
-                ref={project3Ref}
-                image="images/minecraft-site.png"
-                title="Minecraft Getaway Resort"
-                description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
+              buttonText="Learn More"
+              onButtonClick={() => alert("More info about AI Assistant")}
+            />
+          </Grid>
+          <Grid item xs={12} sm={6} md={4} ref={project3Ref}>
+            <InfoCard
+              image="images/minecraft-site.png"
+              title="Minecraft Getaway Resort"
+              description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
                 The rules were simple: 1. to make a website using only HTML and
                 CSS in under a week, and 2. make whatever you want, as long as
                 you learn something.
@@ -102,11 +93,11 @@ const ShowcaseSection = () => {
                 stunning effects without JavaScript, and how to use CSS to make
                 simple elements on the page look like they came came straight
                 from the game itself!"
-                buttonText="Learn More"
-                onButtonClick={() => alert("More info about AI Assistant")}
-              />
-            </Grid>
-          </div>
+              buttonText="Learn More"
+              onButtonClick={() => alert("More info about AI Assistant")}
+            />
+          </Grid>
+          {/* </div> */}
         </Grid>
       </Container>
     </section>
