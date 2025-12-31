@@ -57,8 +57,8 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
               alignItems: "center",
             }}
           >
-            <h3>Project Title</h3>
-            <p>This is a detailed description of the project. </p>
+            <h3>{title}</h3>
+            <p>{description}</p>
             <p>Github Repo: </p>
             <button onClick={close}>Close</button>
           </div>
