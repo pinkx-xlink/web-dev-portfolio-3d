@@ -49,29 +49,16 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
-      <Container sx={{ mt: 4 }}>
-        <Grid container spacing={3}>
-          <Grid item xs={12} sm={6} md={4}>
-            <InfoCard
-              image="https://via.placeholder.com/300x180"
-              title="AI Assistant"
-              description="An AI-powered assistant that helps you with coding, design, and more."
-              buttonText="Learn More"
-              onButtonClick={() => alert("More info about AI Assistant")}
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <InfoCard
-              title="No Image Card"
-              description="This card has no image but still looks clean and responsive."
-            />
-          </Grid>
-        </Grid>
-      </Container>
-
       <div className="w-full">
         <div className="showcaselayout">
           {/* LEFT  */}
+          <InfoCard
+            image="/images/admin-dashboard2.png"
+            title="AI Assistant"
+            description="An AI-powered assistant that helps you with coding, design, and more."
+            buttonText="Learn More"
+            onButtonClick={() => alert("More info about AI Assistant")}
+          />
           <div className="first-project-wrapper" ref={project1Ref}>
             <div className="image-wrapper">
               <img
