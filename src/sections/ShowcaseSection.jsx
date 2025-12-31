@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { gsap } from "gsap/gsap-core";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
+import Popup from "reactjs-popup";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,6 +47,15 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
+      <Popup trigger={<button>Open Pop-Up</button>} modal nested>
+        {(close) => (
+          <div style={{ padding: "20px", textAlign: "center" }}>
+            <p>This is a pop-up using reactjs-popup!</p>
+            <button onClick={close}>Close</button>
+          </div>
+        )}
+      </Popup>
+
       <div className="w-full">
         <div className="showcaselayout">
           {/* LEFT  */}
