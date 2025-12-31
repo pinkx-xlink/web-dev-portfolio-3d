@@ -14,8 +14,21 @@ const App = () => {
   return (
     <>
       <NavBar />
+
       <Hero />
 
+      <h1
+        style={{
+          backgroundColor: "yellow",
+          fontSize: "large",
+          textAlign: "center",
+          color: "black",
+          fontWeight: "bold",
+        }}
+      >
+        HELLO, WORLD! As of 12/30/25, we are remodeling - please check back
+        tomorrow!{" "}
+      </h1>
       <ShowcaseSection />
       <LogoSection />
       <FeatureCards />
