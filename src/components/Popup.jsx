@@ -5,7 +5,7 @@ const PopupExample = () => {
 
   return (
     <div>
-      <button onClick={() => setIsOpen(true)}>Read More</button>
+      <button onClick={() => setIsOpen(true)}>Open Pop-Up</button>
       {isOpen && (
         <div
           style={{
@@ -18,9 +18,7 @@ const PopupExample = () => {
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
           }}
         >
-          <h3>Project Title</h3>
-          <p>This is a detailed description of the project. </p>
-          <p>Github Repo: </p>
+          <p>This is a pop-up!</p>
           <button onClick={() => setIsOpen(false)}>Close</button>
         </div>
       )}

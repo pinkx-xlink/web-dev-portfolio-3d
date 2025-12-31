@@ -47,10 +47,24 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
-      <Popup trigger={<button>Open Pop-Up</button>} modal nested>
+      <Popup trigger={<button>More</button>} modal nested>
         {(close) => (
-          <div style={{ padding: "20px", textAlign: "center" }}>
-            <p>This is a pop-up using reactjs-popup!</p>
+          <div
+            style={{
+              padding: "20px",
+              textAlign: "center",
+              backgroundColor: "black",
+              height: "100vh",
+              width: "100vw",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h3>Project Title</h3>
+            <p>This is a detailed description of the project. </p>
+            <p>Github Repo: </p>
             <button onClick={close}>Close</button>
           </div>
         )}
