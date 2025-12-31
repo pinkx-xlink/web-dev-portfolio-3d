@@ -62,10 +62,10 @@ const ShowcaseSection = () => {
                 Admin Dashboard
                 {/* </a> */}
               </h2>
-              <p className="text-white-50 md:text-xl">
+              {/* <p className="text-white-50 md:text-xl">
                 All your business's statistics at a glance. Made using
                 JavaScript, HTML, TailwindCSS, React, and Nivo charts.
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -83,10 +83,10 @@ const ShowcaseSection = () => {
                   Sugar Sprite Crochet Official Website
                 </a>
               </h2>
-              <p>
+              {/* <p>
                 The official website for Sugar Sprite Crochet. Built with HTML,
                 JavaScript, React, and TailwindCSS.
-              </p>
+              </p> */}
             </div>
 
             <div className="project" ref={project3Ref}>
@@ -101,10 +101,10 @@ const ShowcaseSection = () => {
                   My Lil' Fighty Game
                 </a>
               </h2>
-              <p>
+              {/* <p>
                 A simple old school two-player fighter game built with HTML,
                 CSS, and JavaScript.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -130,7 +130,7 @@ const ShowcaseSection = () => {
                   Minecraft Getaway Resort Website
                 </a>
               </h2>
-              <p>
+              {/* <p>
                 My entry for the MHL's Cloud Week Challenge: my first Hackathon!
                 The rules were simple: 1. to make a website using only HTML and
                 CSS in under a week, and 2. make whatever you want, as long as
@@ -141,7 +141,7 @@ const ShowcaseSection = () => {
                 stunning effects without JavaScript, and how to use CSS to make
                 simple elements on the page look like they came came straight
                 from the game itself!
-              </p>
+              </p> */}
             </div>
 
             <div className="project" ref={project3Ref}>
@@ -156,12 +156,12 @@ const ShowcaseSection = () => {
                   Google Clone
                 </a>
               </h2>
-              <p>
+              {/* <p>
                 A simple but stylish Google clone made to showcase my CSS
                 skills. Made using HTML, CSS, & JavaScript. Warning: NOT the
                 real Google! (Any searches will redirect the user to the{" "}
                 <i>real</i> Google.)
-              </p>
+              </p> */}
             </div>
           </div>
 
@@ -179,11 +179,11 @@ const ShowcaseSection = () => {
                   Pokemon Style Game - DEMO
                 </a>{" "}
               </h2>
-              <p className="text-white-50 md:text-xl">
+              {/* <p className="text-white-50 md:text-xl">
                 Explore the land and battle monsters! This project was my
                 introduction to GSAP animations, and was built on nostalgia,
                 JavaScript, and HTML Canvas.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
