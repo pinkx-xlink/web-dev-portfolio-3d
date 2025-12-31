@@ -40,7 +40,26 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
           {/* <Button size="small" onClick={onButtonClick}>
             {buttonText}
           </Button> */}
-          <Popup trigger={<button>More</button>} modal nested>
+          <Popup
+            trigger={
+              <button
+                style={{
+                  color: "#fff",
+                  backgroundColor: "black",
+                  width: "80px",
+                  height: "30px",
+                  borderRadius: "5px",
+                  border: "none",
+                  cursor: "pointer",
+                  "&:hover": { backgroundColor: "#233" },
+                }}
+              >
+                More
+              </button>
+            }
+            modal
+            nested
+          >
             {(close) => (
               <div
                 style={{
@@ -53,13 +72,28 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
+                  "&:hover": { cursor: "pointer" },
                 }}
               >
                 <img src={image} alt={title} style={{ maxWidth: "80%" }} />
                 <h3>{title}</h3>
                 <p className="text-white-50 md:text-xl">{description}</p>
                 <p>Github Repo: </p>
-                <button onClick={close}>Close</button>
+                <button
+                  onClick={close}
+                  style={{
+                    color: "#333",
+                    backgroundColor: "#fff",
+                    width: "80px",
+                    height: "30px",
+                    borderRadius: "5px",
+                    border: "none",
+                    cursor: "pointer",
+                    "&:hover": { backgroundColor: "gray" },
+                  }}
+                >
+                  Close
+                </button>
               </div>
             )}
           </Popup>
