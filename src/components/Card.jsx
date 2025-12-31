@@ -31,9 +31,9 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
         <Typography gutterBottom variant="h6" component="div">
           {title}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        {/* <Typography variant="body2" color="text.secondary">
           {description}
-        </Typography>
+        </Typography> */}
       </CardContent>
       {buttonText && (
         <CardActions>
@@ -57,8 +57,9 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
               alignItems: "center",
             }}
           >
+            <img src={image} alt={title} style={{ maxWidth: "80%" }} />
             <h3>{title}</h3>
-            <p>{description}</p>
+            <p className="text-white-50 md:text-xl">{description}</p>
             <p>Github Repo: </p>
             <button onClick={close}>Close</button>
           </div>
