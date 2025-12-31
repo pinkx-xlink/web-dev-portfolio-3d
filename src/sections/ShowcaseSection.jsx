@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import { gsap } from "gsap/gsap-core";
 import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
-import Popup from "reactjs-popup";
 
 import { Container, Grid } from "@mui/material";
 import InfoCard from "../components/Card";
@@ -69,29 +68,6 @@ const ShowcaseSection = () => {
           </Grid>
         </Grid>
       </Container>
-
-      <Popup trigger={<button>More</button>} modal nested>
-        {(close) => (
-          <div
-            style={{
-              padding: "20px",
-              textAlign: "center",
-              backgroundColor: "black",
-              height: "100vh",
-              width: "100vw",
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <h3>Project Title</h3>
-            <p>This is a detailed description of the project. </p>
-            <p>Github Repo: </p>
-            <button onClick={close}>Close</button>
-          </div>
-        )}
-      </Popup>
 
       <div className="w-full">
         <div className="showcaselayout">

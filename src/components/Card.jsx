@@ -8,7 +8,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-
+import Popup from "reactjs-popup";
 /**
  * InfoCard Component
  * Displays an image, title, description, and optional action button.
@@ -42,6 +42,28 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
           </Button>
         </CardActions>
       )}
+      <Popup trigger={<button>More</button>} modal nested>
+        {(close) => (
+          <div
+            style={{
+              padding: "20px",
+              textAlign: "center",
+              backgroundColor: "black",
+              height: "100vh",
+              width: "100vw",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <h3>Project Title</h3>
+            <p>This is a detailed description of the project. </p>
+            <p>Github Repo: </p>
+            <button onClick={close}>Close</button>
+          </div>
+        )}
+      </Popup>
     </Card>
   );
 };
