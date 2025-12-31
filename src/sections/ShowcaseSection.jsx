@@ -48,7 +48,7 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className="app-showcase">
+    <section id="work" ref={sectionRef}>
       <Container sx={{ mt: 4 }}>
         {/* className="w-full" ^ */}
         <Grid container spacing={3}>
