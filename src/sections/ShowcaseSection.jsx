@@ -72,7 +72,7 @@ const ShowcaseSection = () => {
 
           <div
             className="project-list-wrapper"
-            style={{ display: "flex", gap: "20px", flexDirection: "column" }}
+            // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
           >
             <Grid item xs={12} sm={6} md={4}>
               <InfoCard
