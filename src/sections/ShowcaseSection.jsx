@@ -47,9 +47,15 @@ const ShowcaseSection = () => {
   return (
     <section id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="showcaselayout">
+        <div
+          className="showcaselayout"
+          style={{
+            display: "flex",
+            flexDirection: "row",
+          }}
+        >
           {/* LEFT  */}
-          <div className="first-project-wrapper" ref={project1Ref}>
+          <div style={{ height: "100vh", width: "50%" }} ref={project1Ref}>
             <div className="image-wrapper">
               <img
                 src="/images/admin-dashboard2.png"
@@ -70,7 +76,10 @@ const ShowcaseSection = () => {
           </div>
 
           {/* RIGHT  */}
-          <div className="project-list-wrapper overflow-hidden">
+          <div
+            className="project-list-wrapper overflow-hidden"
+            style={{ display: "flex", flexDirection: "column" }}
+          >
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ff92c5ba]">
                 <img
