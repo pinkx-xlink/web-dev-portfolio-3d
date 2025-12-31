@@ -21,6 +21,11 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
         boxShadow: 3,
         borderRadius: 2,
         transition: "0.3s",
+
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+
         "&:hover": { boxShadow: 6 },
       }}
     >
@@ -75,25 +80,52 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
                   "&:hover": { cursor: "pointer" },
                 }}
               >
-                <img src={image} alt={title} style={{ maxWidth: "80%" }} />
-                <h3>{title}</h3>
-                <p className="text-white-50 md:text-xl">{description}</p>
-                <p>Github Repo: </p>
-                <button
-                  onClick={close}
+                {/* <div
+                  className="image-container"
                   style={{
-                    color: "#333",
-                    backgroundColor: "#fff",
-                    width: "80px",
-                    height: "30px",
+                    maxWidth: "550px",
                     borderRadius: "5px",
-                    border: "none",
-                    cursor: "pointer",
-                    "&:hover": { backgroundColor: "gray" },
+                    overflow: "hidden",
                   }}
                 >
-                  Close
-                </button>
+                  <img src={image} alt={title} style={{ maxWidth: "80%" }} />
+                </div> */}
+
+                <div
+                  className="info-container-wrapper"
+                  style={{ padding: "20px" }}
+                >
+                  <div className="info-container">
+                    <h3 className="text-white-50 md:text-xl">{title}</h3>
+                    <p
+                      className="text-white-50 md:text-large"
+                      style={{
+                        marginBottom: "20px",
+                        textAlign: "center",
+                        maxwidth: "400px",
+                        padding: "10px",
+                      }}
+                    >
+                      {description}
+                    </p>
+                    <p>Github Repo: </p>
+                  </div>
+                  <button
+                    onClick={close}
+                    style={{
+                      color: "#333",
+                      backgroundColor: "#fff",
+                      width: "80px",
+                      height: "30px",
+                      borderRadius: "5px",
+                      border: "none",
+                      cursor: "pointer",
+                      "&:hover": { backgroundColor: "gray" },
+                    }}
+                  >
+                    Close
+                  </button>
+                </div>
               </div>
             )}
           </Popup>
