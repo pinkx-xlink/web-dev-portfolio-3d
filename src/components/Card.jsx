@@ -40,7 +40,13 @@ const InfoCard = ({
       {image && (
         <CardMedia component="img" height="180" image={image} alt={title} />
       )}
-      <CardContent>
+      <CardContent
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
         <Typography gutterBottom variant="h6" component="div">
           {title}
         </Typography>
