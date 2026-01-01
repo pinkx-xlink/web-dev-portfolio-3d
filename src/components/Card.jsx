@@ -53,7 +53,9 @@ const InfoCard = ({
         {/* <Typography variant="body2" color="text.secondary">
           {description}
         </Typography> */}
-        <Typography>Languages & tools used: {tags} </Typography>
+        <Typography color="text.secondary">
+          Languages & tools used: {tags}{" "}
+        </Typography>
       </CardContent>
       {buttonText && (
         <CardActions>
