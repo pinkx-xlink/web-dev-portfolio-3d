@@ -49,7 +49,10 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef}>
-      <Container sx={{ mt: 4 }}>
+      <Container
+        sx={{ mt: 4 }}
+        style={{ display: "flex", justifyContent: "center" }}
+      >
         {/* className="w-full" ^ */}
         <Grid container spacing={3}>
           {/* className="showcaselayout" ^ */}
@@ -61,7 +64,9 @@ const ShowcaseSection = () => {
                 All your business's statistics at a glance. Made using
                 JavaScript, HTML, TailwindCSS, React, and Nivo charts."
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about AI Assistant")}
+              onButtonClick={() => alert("More info about Admin Dashboard")}
+              siteLink="/"
+              tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
             />
           </Grid>
 
@@ -73,10 +78,14 @@ const ShowcaseSection = () => {
             <InfoCard
               image="/images/sugar-sprite-crochet.png"
               title="Sugar Sprite Crochet"
-              description="The official website for Sugar Sprite Crochet. Built with HTML,
-                JavaScript, React, and TailwindCSS."
+              description="The official website for Sugar Sprite Crochet."
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about AI Assistant")}
+              onButtonClick={() =>
+                alert("More info about Sugar Sprite Crochet")
+              }
+              siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
+              tags="HTML,
+                JavaScript, React, and TailwindCSS"
             />
           </Grid>
           <Grid item xs={12} sm={6} md={4} ref={project3Ref}>
@@ -91,10 +100,12 @@ const ShowcaseSection = () => {
                 This project helped me gain a better understanding of how to
                 implement assets (including music and fonts), how to create
                 stunning effects without JavaScript, and how to use CSS to make
-                simple elements on the page look like they came came straight
+                simple elements on the page look like they came straight
                 from the game itself!"
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about AI Assistant")}
+              onButtonClick={() => alert("More info about this")}
+              siteLink="https://minecraft-getaway-resort.netlify.app/"
+              tags="HTML, CSS"
             />
           </Grid>
           {/* </div> */}

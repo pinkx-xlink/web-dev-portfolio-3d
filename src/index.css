@@ -23,6 +23,16 @@ section {
   width: 100dvw;
 }
 
+.site-link {
+  color: #82b1ff;
+  transition: all 0.3s ease-in-out;
+}
+.site-link:hover {
+  color: #52aeff;
+  text-decoration: underline;
+  font-size: 1.05em;
+}
+
 @theme {
   --font-sans: "Mona Sans", sans-serif;
   --color-white-50: #d9ecff;

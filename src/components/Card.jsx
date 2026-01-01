@@ -13,7 +13,15 @@ import Popup from "reactjs-popup";
  * InfoCard Component
  * Displays an image, title, description, and optional action button.
  */
-const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
+const InfoCard = ({
+  image,
+  title,
+  description,
+  buttonText,
+  onButtonClick,
+  siteLink,
+  tags,
+}) => {
   return (
     <Card
       sx={{
@@ -39,6 +47,7 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
         {/* <Typography variant="body2" color="text.secondary">
           {description}
         </Typography> */}
+        <Typography>Languages & tools used: {tags} </Typography>
       </CardContent>
       {buttonText && (
         <CardActions>
@@ -74,29 +83,45 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
                   height: "100vh",
                   width: "100vw",
                   display: "flex",
+
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
                   "&:hover": { cursor: "pointer" },
                 }}
               >
-                {/* <div
-                  className="image-container"
-                  style={{
-                    maxWidth: "550px",
-                    borderRadius: "5px",
-                    overflow: "hidden",
-                  }}
-                >
-                  <img src={image} alt={title} style={{ maxWidth: "80%" }} />
-                </div> */}
-
                 <div
                   className="info-container-wrapper"
-                  style={{ padding: "20px" }}
+                  style={{
+                    padding: "20px",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
                 >
                   <div className="info-container">
-                    <h3 className="text-white-50 md:text-xl">{title}</h3>
+                    <h1 className="text-white-50 md:text-xl">{title}</h1>
+
+                    <div
+                      className="image-container"
+                      style={{
+                        maxWidth: "550px",
+                        borderRadius: "5px",
+                        overflow: "hidden",
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        margin: "20px auto",
+                      }}
+                    >
+                      <img
+                        src={image}
+                        alt={title}
+                        style={{ maxWidth: "80%" }}
+                      />
+                    </div>
+
                     <p
                       className="text-white-50 md:text-large"
                       style={{
@@ -108,7 +133,12 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
                     >
                       {description}
                     </p>
-                    <p>Github Repo: </p>
+                    <p>
+                      Visit this website:{" "}
+                      <a href={siteLink} className="site-link" target="_blank">
+                        {siteLink}
+                      </a>{" "}
+                    </p>
                   </div>
                   <button
                     onClick={close}
@@ -120,6 +150,8 @@ const InfoCard = ({ image, title, description, buttonText, onButtonClick }) => {
                       borderRadius: "5px",
                       border: "none",
                       cursor: "pointer",
+                      position: "absolute",
+                      bottom: "13px",
                       "&:hover": { backgroundColor: "gray" },
                     }}
                   >
