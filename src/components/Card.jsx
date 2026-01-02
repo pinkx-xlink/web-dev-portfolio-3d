@@ -29,7 +29,6 @@ const InfoCard = ({
         boxShadow: 3,
         borderRadius: 2,
         transition: "0.3s",
-
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

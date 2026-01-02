@@ -49,6 +49,7 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef}>
+      {/* SECTION 2 */}
       <Container
         sx={{ mt: 4 }}
         style={{ display: "flex", justifyContent: "center" }}
