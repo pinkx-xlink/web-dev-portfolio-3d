@@ -9,6 +9,7 @@ import {
   Button,
 } from "@mui/material";
 import Popup from "reactjs-popup";
+import { CircleX } from "lucide-react";
 /**
  * InfoCard Component
  * Displays an image, title, description, and optional action button.
@@ -148,21 +149,21 @@ const InfoCard = ({
                     </p>
                   </div>
                   <button
+                    className="absolute top-1 right-1"
                     onClick={close}
                     style={{
                       color: "#333",
-                      backgroundColor: "#fff",
+
                       width: "80px",
                       height: "30px",
-                      borderRadius: "5px",
+
                       border: "none",
                       cursor: "pointer",
-                      position: "absolute",
-                      bottom: "13px",
+
                       "&:hover": { backgroundColor: "gray" },
                     }}
                   >
-                    Close
+                    <CircleX className="bg-pink-600 rounded-full" />
                   </button>
                 </div>
               </div>
