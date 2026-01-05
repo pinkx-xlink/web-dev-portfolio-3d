@@ -41,11 +41,14 @@ const counterItems = [
   { value: 7, suffix: "+", label: "Years of Experience" },
   { value: 3, suffix: "+", label: "Years of Code" },
   { value: 100, suffix: "+", label: "Completed Projects" },
-  { value: 100, suffix: "%", label: "Excited To See If I'm A Good Fit For Your Team!" },
+  {
+    value: 100,
+    suffix: "%",
+    label: "Excited To See If I'm A Good Fit For Your Team!",
+  },
 ];
 
-
-// ORIGINAL: 
+// ORIGINAL:
 // const logoIconsList = [
 //   {
 //     imgPath: "/images/logos/company-logo-1.png",
@@ -82,8 +85,7 @@ const counterItems = [
 //   },
 // ];
 
-
-// MINE: 
+// MINE:
 // personalize to my companies
 const logoIconsList = [
   {
@@ -101,7 +103,7 @@ const logoIconsList = [
   {
     imgPath: "/images/anderson-logo.png",
   },
-    {
+  {
     imgPath: "/images/archway-logo-resized.png",
   },
   {
@@ -116,9 +118,7 @@ const logoIconsList = [
   {
     imgPath: "/images/anderson-logo.png",
   },
-  
 ];
-
 
 const abilities = [
   {
@@ -139,29 +139,33 @@ const abilities = [
 ];
 
 const techStackImgs = [
-   {
+  {
     name: "CSS",
     imgPath: "/images/css-img.png",
   },
-   {
+  {
     name: "Tailwind CSS",
     imgPath: "/images/tailwind-img.png",
   },
-    {
+  {
     name: "HTML",
     imgPath: "/images/html-img.png",
   },
-    {
+  {
     name: "JavaScript",
     imgPath: "/images/javascript-img.png",
   },
-    {
+  {
     name: "PostgresSQL",
     imgPath: "/images/postgres-sql-img.png",
   },
-    {
+  {
     name: "TypeScript",
     imgPath: "/images/typescript-img.png",
+  },
+  {
+    name: "WordPress",
+    imgPath: "/images/wordpress-img.png",
   },
 
   // {
@@ -193,12 +197,12 @@ const techStackIcons = [
     scale: 1,
     rotation: [0, 0, 0],
   },
-   {
-    name: "WordPress",
-    modelPath: "/models/wordpress.glb",
-    scale: 0.17,
-    rotation: [14, Math.PI / 21, 0],
-  },
+  // {
+  //   name: "WordPress",
+  //   modelPath: "/models/wordpress.glb",
+  //   scale: 0.17,
+  //   rotation: [14, Math.PI / 21, 0],
+  // },
   // {
   //   name: "Python Developer",
   //   modelPath: "/models/python-transformed.glb",
@@ -226,8 +230,9 @@ const techStackIcons = [
 ];
 
 const expCards = [
-    {
-    review: "In 2024 I leveraged my experience in customer service, shipping, inventory control, & computer literacy to build and launch my first business online with the goal to provide sustainable clothing options worldwide. We've hit 85+ sales in our first year, and are proud of our 100% customer satisfaction rate!",
+  {
+    review:
+      "In 2024 I leveraged my experience in customer service, shipping, inventory control, & computer literacy to build and launch my first business online with the goal to provide sustainable clothing options worldwide. We've hit 85+ sales in our first year, and are proud of our 100% customer satisfaction rate!",
     imgPath: "/images/ssc-logo.png",
     logoPath: "/images/logo1.png",
     title: "Business Owner",
@@ -243,7 +248,8 @@ const expCards = [
     ],
   },
   {
-    review: "During my contract, I worked independantly using ERP systems, SMS, and SAP to analyze and process thousands of accurate inventory adjustments per week, and collaborated with my team remotely through Outlook and Teams. My mission as the IT Programmer Analyst was to research and rectify thousands of inventory discrepancies caused by a software update, and I was able to help the team achieve this goal weeks ahead of schedule.",
+    review:
+      "During my contract, I worked independantly using ERP systems, SMS, and SAP to analyze and process thousands of accurate inventory adjustments per week, and collaborated with my team remotely through Outlook and Teams. My mission as the IT Programmer Analyst was to research and rectify thousands of inventory discrepancies caused by a software update, and I was able to help the team achieve this goal weeks ahead of schedule.",
     imgPath: "/images/zimmer-logo-resized.png",
     logoPath: "/images/logo1.png",
     title: "IT Programmer Analyst",
@@ -258,7 +264,8 @@ const expCards = [
     ],
   },
   {
-    review: "During my time at Archway, I had the privilege of collecting a wide variety of hands-on experience; from picking orders to being trained in SQL and HAZMAT, from temp to administrative assistant submitting timesheets to the temp agencies; from project management and processing mail, to data entry, filing, and scheduling, my time at Archway servd to hone my communcation skills, problem-solving, and teamwork.",
+    review:
+      "During my time at Archway, I had the privilege of collecting a wide variety of hands-on experience; from picking orders to being trained in SQL and HAZMAT, from temp to administrative assistant submitting timesheets to the temp agencies; from project management and processing mail, to data entry, filing, and scheduling, my time at Archway servd to hone my communcation skills, problem-solving, and teamwork.",
     imgPath: "/images/archway-logo-resized.png",
     logoPath: "/images/logo2.png",
     title: "Administrative Assistant",
@@ -273,7 +280,8 @@ const expCards = [
     ],
   },
   {
-    review: "As a full-time employee I excelled in a range of responsibilities, from sales and customer service, to processing payments and presenting product/color palette recommendations.",
+    review:
+      "As a full-time employee I excelled in a range of responsibilities, from sales and customer service, to processing payments and presenting product/color palette recommendations.",
     imgPath: "/images/lowes-logo-resized.png",
     logoPath: "/images/logo3.png",
     title: "Sales Associate",
@@ -285,7 +293,7 @@ const expCards = [
       "Performed daily equipment cleaning and maintenance.",
       "Kept product stocked and organized.",
       "Coordinated with the sales team to provide excellence customer service.",
-      "Assisted customers in making informed purchases, and place special/online orders for guests."
+      "Assisted customers in making informed purchases, and place special/online orders for guests.",
     ],
   },
 ];
@@ -366,12 +374,12 @@ const socialImgs = [
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-    url: "https://www.linkedin.com/in/shaiyan-younkin-916633271/"
+    url: "https://www.linkedin.com/in/shaiyan-younkin-916633271/",
   },
   {
     name: "github",
     imgPath: "/images/github.png",
-    url: "https://github.com/pinkx-xlink"
+    url: "https://github.com/pinkx-xlink",
   },
 ];
 
