@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
                 This Vite ReactJS app uses Axios and Open Weather Map API to fetch weather updates quick as lightning. All the user needs to do is type in a city and hit the search button! This app is made responsive using CSS and Tailwind CSS, meaning it will look stunning on laptops, tablets, and phone screens alike."
               buttonText="Learn More"
               onButtonClick={() => alert("More info about Admin Dashboard")}
-              siteLink="/"
+              siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
               tags="React, Vite, JavaScript, GSAP, HTML, CSS, Open Weather Map API, Lucide React, Tailwind CSS"
             />
           </Grid>
