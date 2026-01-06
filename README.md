@@ -16,6 +16,13 @@ I had to do some serious brainstorming when it came to deciding on the layout I 
 ## The Solution
 
 Thanks to Google, Netlify debugging tips, and my sheer determination, my portfolio was up and running, live and online at long last! I've had issues deploying **specifically ReactJS** projects to Netlify before, but this project taught me that the process generally goes smoother when I deploy my websites through the terminal using NPM commands and sync it to the repository instead of manually deploying the static folder on the Netlify website.
+
+## What I Learned
+
+This project was full of firsts, including the 3D ThreeJS models and the animatd icon carousel (which I'm very happy about, because the last time I tried to build an icon carousel it didn't go as well 😅). There were also plenty of opportunities for me to get additional practice with tools I started using recently but still have plenty to learn about, including GSAP animations. And to my surprise, building my portfolio helped me feel like I'm rapidly becoming a TailwindCSS expert! I started studying TailwindCSS a few months ago on a whim, and after seeing how easy it was to use it to make my portfolio look great on all devices, I'd rather not think about my development life before Tailwind! Last but not least, after completing this website, I'm confident that I could import and use Lucide React components in my sleep.
+
+##
+
 ![My Web Development Portfolio: large screen view](./public/images/portfolio-md.png)
 _Tablet View_
 
