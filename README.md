@@ -24,11 +24,11 @@ This project was full of firsts, including the 3D ThreeJS models and the animatd
 
 ##
 
+### _Tablet View_
+
 ![My Web Development Portfolio: large screen view](./public/images/portfolio-md.png)
 
-### _Tablet View_
+### _Mobile View_
 
 ![My Web Development Portfolio: large screen view](./public/images/portfolio-sm.png)
 ![My Web Development Portfolio: large screen view](./public/images/portfolio-sm1.png)
-
-### _Mobile View_
