@@ -104,7 +104,7 @@ const InfoCard = ({
                 }}
               >
                 <div
-                  className="info-container-wrapper"
+                  className="info-container-wrapper overflow-y-auto"
                   style={{
                     padding: "20px",
                     display: "flex",
@@ -113,45 +113,52 @@ const InfoCard = ({
                     justifyContent: "center",
                   }}
                 >
-                  <div className="info-container">
-                    <h1 className="text-white-50 md:text-xl">{title}</h1>
-
-                    <div
-                      className="image-container"
-                      style={{
-                        maxWidth: "550px",
-                        borderRadius: "5px",
-                        overflow: "hidden",
-                        display: "flex",
-                        justifyContent: "center",
-                        alignItems: "center",
-                        margin: "20px auto",
-                      }}
-                    >
-                      <img
-                        src={image}
-                        alt={title}
-                        style={{ maxWidth: "80%" }}
-                      />
+                  <div className="info-container lg:flex lg:flex-row">
+                    <div className="modal_content;">
+                      <h1 className="text-white-50 md:text-xl">{title}</h1>
+                      <div
+                        className="image-container lg:min-w-[400px]"
+                        style={{
+                          maxWidth: "550px",
+                          borderRadius: "5px",
+                          overflow: "hidden",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                          margin: "20px auto",
+                        }}
+                      >
+                        <img
+                          className="sm:w-[90%]"
+                          src={image}
+                          alt={title}
+                          style={{ maxWidth: "80%" }}
+                        />
+                      </div>
                     </div>
-
-                    <p
-                      className="text-white-50 md:text-large"
-                      style={{
-                        marginBottom: "20px",
-                        textAlign: "center",
-                        maxwidth: "400px",
-                        padding: "10px",
-                      }}
-                    >
-                      {description}
-                    </p>
-                    <p>
-                      Visit this website:{" "}
-                      <a href={siteLink} className="site-link" target="_blank">
-                        {siteLink}
-                      </a>{" "}
-                    </p>
+                    <div className="modal_text">
+                      <p
+                        className="text-white-50 md:text-large"
+                        style={{
+                          marginBottom: "20px",
+                          textAlign: "center",
+                          maxwidth: "400px",
+                          padding: "10px",
+                        }}
+                      >
+                        {description}
+                      </p>
+                      <p>
+                        Visit this website:{" "}
+                        <a
+                          href={siteLink}
+                          className="site-link"
+                          target="_blank"
+                        >
+                          {siteLink}
+                        </a>{" "}
+                      </p>
+                    </div>
                   </div>
                   <button
                     className="absolute top-1 right-1"
