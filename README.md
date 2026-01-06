@@ -1,1 +1,1 @@
-![My Web Development Portfolio: large screen view](/images/portfolio-lg.png)
+![My Web Development Portfolio: large screen view](./public/images/portfolio-lg.png)
