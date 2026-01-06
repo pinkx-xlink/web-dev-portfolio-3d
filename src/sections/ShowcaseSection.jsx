@@ -142,38 +142,41 @@ const ShowcaseSection = () => {
         {/* className="w-full" ^ */}
         <Grid container spacing={3}>
           {/* className="showcaselayout" ^ */}
-          <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
-            <InfoCard
-              image="/images/admin-dashboard2.png"
-              title="Admin Dashboard"
-              description="
+          <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
+            <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
+              <InfoCard
+                image="/images/admin-dashboard2.png"
+                title="Admin Dashboard"
+                description="
                 All your business's statistics at a glance. Made using
                 JavaScript, HTML, TailwindCSS, React, and Nivo charts."
-              buttonText="Learn More"
-              onButtonClick={() => alert("More info about Admin Dashboard")}
-              siteLink="/"
-              tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
-            />
-          </Grid>
+                buttonText="Learn More"
+                onButtonClick={() => alert("More info about Admin Dashboard")}
+                siteLink="/"
+                tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
+              />
+            </Grid>
 
-          {/* <div
+            {/* <div
             className="project-list-wrapper"
             // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
           > */}
-          <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
-            <InfoCard
-              image="/images/sugar-sprite-crochet.png"
-              title="Sugar Sprite Crochet"
-              description="The official website for Sugar Sprite Crochet."
-              buttonText="Learn More"
-              onButtonClick={() =>
-                alert("More info about Sugar Sprite Crochet")
-              }
-              siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
-              tags="HTML,
+            <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
+              <InfoCard
+                image="/images/sugar-sprite-crochet.png"
+                title="Sugar Sprite Crochet"
+                description="The official website for Sugar Sprite Crochet."
+                buttonText="Learn More"
+                onButtonClick={() =>
+                  alert("More info about Sugar Sprite Crochet")
+                }
+                siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
+                tags="HTML,
                 JavaScript, React, and TailwindCSS"
-            />
-          </Grid>
+              />
+            </Grid>
+          </div>
+
           <Grid
             className="lg:w-full"
             item
