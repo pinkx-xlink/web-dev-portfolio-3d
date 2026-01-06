@@ -54,10 +54,22 @@ const ShowcaseSection = () => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         {/* className="w-full" ^ */}
-        <Grid container spacing={3}>
+        <Grid
+          className="flex lg:flex-col lg:w-full md:w-full sm:flex-row flex-col gap-6 justify-center"
+          container
+          spacing={3}
+        >
           {/* className="showcaselayout" ^ */}
-          <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
+          <Grid
+            className="lg:w-full"
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            ref={project1Ref}
+          >
             <InfoCard
+              className="lg:w-full md:w-full"
               image="/images/hello-weather.png"
               title="Hello, Weather!"
               description="
@@ -74,25 +86,34 @@ const ShowcaseSection = () => {
             className="project-list-wrapper"
             // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
           > */}
-          <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
-            <InfoCard
-              image="/images/sugar-sprite-crochet.png"
-              title="Sugar Sprite Crochet"
-              description="The official website for Sugar Sprite Crochet."
-              buttonText="Learn More"
-              onButtonClick={() =>
-                alert("More info about Sugar Sprite Crochet")
-              }
-              siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
-              tags="HTML,
+          <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
+            <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
+              <InfoCard
+                image="/images/sugar-sprite-crochet.png"
+                title="Sugar Sprite Crochet"
+                description="The official website for Sugar Sprite Crochet."
+                buttonText="Learn More"
+                onButtonClick={() =>
+                  alert("More info about Sugar Sprite Crochet")
+                }
+                siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
+                tags="HTML,
                 JavaScript, React, and TailwindCSS"
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} md={4} ref={project3Ref}>
-            <InfoCard
-              image="images/minecraft-site.png"
-              title="Minecraft Getaway Resort"
-              description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
+              />
+            </Grid>
+            <Grid
+              className="lg:w-full"
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              ref={project3Ref}
+            >
+              <InfoCard
+                className="lg:w-full md:w-full"
+                image="images/minecraft-site.png"
+                title="Minecraft Getaway Resort"
+                description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
                 The rules were simple: 1. to make a website using only HTML and
                 CSS in under a week, and 2. make whatever you want, as long as
                 you learn something.
@@ -102,12 +123,13 @@ const ShowcaseSection = () => {
                 stunning effects without JavaScript, and how to use CSS to make
                 simple elements on the page look like they came straight
                 from the game itself!"
-              buttonText="Learn More"
-              onButtonClick={() => alert("More info about this")}
-              siteLink="https://minecraft-getaway-resort.netlify.app/"
-              tags="HTML, CSS"
-            />
-          </Grid>
+                buttonText="Learn More"
+                onButtonClick={() => alert("More info about this")}
+                siteLink="https://minecraft-getaway-resort.netlify.app/"
+                tags="HTML, CSS"
+              />
+            </Grid>
+          </div>
           {/* </div> */}
         </Grid>
       </Container>
@@ -152,8 +174,16 @@ const ShowcaseSection = () => {
                 JavaScript, React, and TailwindCSS"
             />
           </Grid>
-          <Grid item xs={12} sm={6} md={4} ref={project3Ref}>
+          <Grid
+            className="lg:w-full"
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            ref={project3Ref}
+          >
             <InfoCard
+              className="lg:w-full md:w-full"
               image="images/minecraft-site.png"
               title="Minecraft Getaway Resort"
               description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!

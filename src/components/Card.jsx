@@ -26,7 +26,7 @@ const InfoCard = ({
   return (
     <Card
       sx={{
-        maxWidth: 345,
+        // maxWidth: 345,
         boxShadow: 3,
         borderRadius: 2,
         transition: "0.3s",
@@ -38,7 +38,12 @@ const InfoCard = ({
       }}
     >
       {image && (
-        <CardMedia component="img" height="180" image={image} alt={title} />
+        <CardMedia
+          component="img"
+          className="max-h-[200px]"
+          image={image}
+          alt={title}
+        />
       )}
       <CardContent
         style={{
