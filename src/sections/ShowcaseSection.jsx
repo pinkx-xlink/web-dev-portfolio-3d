@@ -53,13 +53,11 @@ const ShowcaseSection = () => {
         sx={{ mt: 4 }}
         style={{ display: "flex", justifyContent: "center" }}
       >
-        {/* className="w-full" ^ */}
         <Grid
           className="flex lg:flex-col lg:w-full md:w-full sm:flex-row flex-col gap-6 justify-center"
           container
           spacing={3}
         >
-          {/* className="showcaselayout" ^ */}
           <Grid
             className="lg:w-full"
             item
@@ -82,10 +80,6 @@ const ShowcaseSection = () => {
             />
           </Grid>
 
-          {/* <div
-            className="project-list-wrapper"
-            // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
-          > */}
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
             <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
@@ -139,7 +133,6 @@ const ShowcaseSection = () => {
         sx={{ mt: 4 }}
         style={{ display: "flex", justifyContent: "center" }}
       >
-        {/* className="w-full" ^ */}
         <Grid container spacing={3}>
           {/* className="showcaselayout" ^ */}
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
@@ -157,10 +150,6 @@ const ShowcaseSection = () => {
               />
             </Grid>
 
-            {/* <div
-            className="project-list-wrapper"
-            // style={{ display: "flex", gap: "20px", flexDirection: "column" }}
-          > */}
             <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
                 image="/images/sugar-sprite-crochet.png"
@@ -177,14 +166,7 @@ const ShowcaseSection = () => {
             </Grid>
           </div>
 
-          <Grid
-            className="lg:w-full"
-            item
-            xs={12}
-            sm={6}
-            md={4}
-            ref={project3Ref}
-          >
+          <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
             <InfoCard
               className="lg:w-full md:w-full"
               image="images/minecraft-site.png"
@@ -205,7 +187,6 @@ const ShowcaseSection = () => {
               tags="HTML, CSS"
             />
           </Grid>
-          {/* </div> */}
         </Grid>
       </Container>
     </section>
