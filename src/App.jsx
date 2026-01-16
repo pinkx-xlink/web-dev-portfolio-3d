@@ -15,6 +15,7 @@ const App = () => {
   return (
     <>
       <NavBar />
+      <CurrentProject />
 
       <Hero />
 
@@ -31,7 +32,7 @@ const App = () => {
         tomorrow!{" "}
       </h1>
       <ShowcaseSection />
-      <CurrentProject />
+
       <LogoSection />
       <FeatureCards />
       <ExperienceSection />

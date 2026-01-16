@@ -1,5 +1,5 @@
 import React from "react";
-import myVideo from "../public/videos/node-mini-message-board-wip.mp4";
+import { videosList } from "../constants/index";
 
 const CurrentProject = () => {
   return (
@@ -12,14 +12,19 @@ const CurrentProject = () => {
         intuitive interface. Stay tuned for updates as I continue to develop and
         enhance this application!
       </p>
-      <video
-        src={myVideo}
-        controls
-        autoPlay
-        muted
-        loop
-        style={{ width: "100%", maxWidth: "600px" }}
-      />
+
+      <div className="current-project-videos">
+        {videosList.map((video) => (
+          <video
+            src={video.videoPath}
+            controls
+            autoPlay
+            muted
+            loop
+            style={{ width: "100%", maxWidth: "600px" }}
+          />
+        ))}
+      </div>
     </section>
   );
 };
