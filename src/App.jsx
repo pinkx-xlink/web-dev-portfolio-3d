@@ -15,24 +15,9 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <CurrentProject />
-
       <Hero />
-
-      <h1
-        style={{
-          backgroundColor: "yellow",
-          fontSize: "large",
-          textAlign: "center",
-          color: "black",
-          fontWeight: "bold",
-        }}
-      >
-        HELLO, WORLD! As of 12/30/25, we are remodeling - please check back
-        tomorrow!{" "}
-      </h1>
       <ShowcaseSection />
-
+      <CurrentProject />
       <LogoSection />
       <FeatureCards />
       <ExperienceSection />
