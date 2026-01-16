@@ -9,6 +9,7 @@ import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import CurrentProject from "./sections/CurrentProject";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
         tomorrow!{" "}
       </h1>
       <ShowcaseSection />
+      <CurrentProject />
       <LogoSection />
       <FeatureCards />
       <ExperienceSection />

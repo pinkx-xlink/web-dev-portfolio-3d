@@ -87,6 +87,9 @@ const counterItems = [
 
 // MINE:
 // personalize to my companies
+
+const videosList = [{ videoPath: "/videos/node-mini-message-board-wip.mp4" }];
+
 const logoIconsList = [
   {
     imgPath: "/images/archway-logo-resized.png",
@@ -387,6 +390,7 @@ export {
   words,
   abilities,
   logoIconsList,
+  videosList,
   counterItems,
   expCards,
   expLogos,

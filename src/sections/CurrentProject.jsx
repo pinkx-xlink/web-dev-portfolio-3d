@@ -1,9 +1,9 @@
 import React from "react";
-import myVideo from "./videos/node-mini-message-board.mp4";
+import myVideo from "../public/videos/node-mini-message-board-wip.mp4";
 
 const CurrentProject = () => {
   return (
-    <section id="contact" className="flex-center section-padding">
+    <section id="current" className="flex-center section-padding">
       <h2>Current Project</h2>
       <p>
         I'm currently working on a mini message board app built using NodeJS as
