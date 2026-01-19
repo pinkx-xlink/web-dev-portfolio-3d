@@ -36,14 +36,14 @@ const ShowcaseSection = () => {
             trigger: card,
             start: "top bottom-=100",
           },
-        }
+        },
       );
     });
 
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
   }, []);
 
@@ -152,16 +152,13 @@ const ShowcaseSection = () => {
 
             <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
-                image="/images/sugar-sprite-crochet.png"
-                title="Sugar Sprite Crochet"
-                description="The official website for Sugar Sprite Crochet."
+                image="/images/google-clone.png"
+                title="Google Clone"
+                description="A simple but efficient Google search page clone made using pure HTML, JavaScript, and CSS. Features a working search bar that fetches results from the Google Custom Search API and displays them in a clean, user-friendly format."
                 buttonText="Learn More"
-                onButtonClick={() =>
-                  alert("More info about Sugar Sprite Crochet")
-                }
-                siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
-                tags="HTML,
-                JavaScript, React, and TailwindCSS"
+                onButtonClick={() => alert("More info about Google Clone")}
+                siteLink="https://shaiyans-google-clone.netlify.app/"
+                tags="HTML,JavaScript, and CSS"
               />
             </Grid>
           </div>
@@ -169,18 +166,9 @@ const ShowcaseSection = () => {
           <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
             <InfoCard
               className="lg:w-full md:w-full"
-              image="images/minecraft-site.png"
-              title="Minecraft Getaway Resort"
-              description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
-                The rules were simple: 1. to make a website using only HTML and
-                CSS in under a week, and 2. make whatever you want, as long as
-                you learn something.
-               
-                This project helped me gain a better understanding of how to
-                implement assets (including music and fonts), how to create
-                stunning effects without JavaScript, and how to use CSS to make
-                simple elements on the page look like they came straight
-                from the game itself!"
+              image="images/"
+              title="Blank"
+              description="To be determined..."
               buttonText="Learn More"
               onButtonClick={() => alert("More info about this")}
               siteLink="https://minecraft-getaway-resort.netlify.app/"
