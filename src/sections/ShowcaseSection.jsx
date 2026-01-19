@@ -76,7 +76,7 @@ const ShowcaseSection = () => {
               buttonText="Learn More"
               onButtonClick={() => alert("More info about Admin Dashboard")}
               siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
-              tags="React, Vite, JavaScript, GSAP, HTML, CSS, Open Weather Map API, Lucide React, Tailwind CSS"
+              tags="React, Vite, JavaScript, GSAP, HTML, CSS, Weather API, Lucide React, Tailwind CSS"
             />
           </Grid>
 
@@ -158,7 +158,7 @@ const ShowcaseSection = () => {
                 buttonText="Learn More"
                 onButtonClick={() => alert("More info about Google Clone")}
                 siteLink="https://shaiyans-google-clone.netlify.app/"
-                tags="HTML,JavaScript, and CSS"
+                tags="HTML, JavaScript, and CSS"
               />
             </Grid>
           </div>
@@ -172,7 +172,7 @@ const ShowcaseSection = () => {
               buttonText="Learn More"
               onButtonClick={() => alert("More info about Book Finder App")}
               siteLink="https://shy-book-finder.netlify.app/"
-              tags="ReactJs, Vite, TailwindCSS, JavaScript, HTML, CSS"
+              tags="ReactJs, Vite, TailwindCSS, JavaScript, Google APIs, HTML, CSS"
             />
           </Grid>
         </Grid>
