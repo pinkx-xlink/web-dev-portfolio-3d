@@ -166,13 +166,13 @@ const ShowcaseSection = () => {
           <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
             <InfoCard
               className="lg:w-full md:w-full"
-              image="images/"
-              title="Blank"
-              description="To be determined..."
+              image="images/book-finder-screenshot.png"
+              title="Book Finder App"
+              description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about this")}
-              siteLink="https://minecraft-getaway-resort.netlify.app/"
-              tags="HTML, CSS"
+              onButtonClick={() => alert("More info about Book Finder App")}
+              siteLink="https://shy-book-finder.netlify.app/"
+              tags="ReactJs, Vite, TailwindCSS, JavaScript, HTML, CSS"
             />
           </Grid>
         </Grid>
