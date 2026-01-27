@@ -68,15 +68,13 @@ const ShowcaseSection = () => {
           >
             <InfoCard
               className="lg:w-full md:w-full"
-              image="/images/hello-weather.png"
-              title="Hello, Weather!"
-              description="
-                Cheerful weather updates at the palm of your hand!
-                This Vite ReactJS app uses Axios and Open Weather Map API to fetch weather updates quick as lightning. All the user needs to do is type in a city and hit the search button! This app is made responsive using CSS and Tailwind CSS, meaning it will look stunning on laptops, tablets, and phone screens alike."
+              image="images/book-finder-screenshot.png"
+              title="Book Finder App"
+              description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about Admin Dashboard")}
-              siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
-              tags="React, Vite, JavaScript, GSAP, HTML, CSS, Weather API, Lucide React, Tailwind CSS"
+              onButtonClick={() => alert("More info about Book Finder App")}
+              siteLink="https://shy-book-finder.netlify.app/"
+              tags="ReactJs, Vite, TailwindCSS, JavaScript, Google APIs, HTML, CSS"
             />
           </Grid>
 
@@ -105,22 +103,15 @@ const ShowcaseSection = () => {
             >
               <InfoCard
                 className="lg:w-full md:w-full"
-                image="images/minecraft-site.png"
-                title="Minecraft Getaway Resort"
-                description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
-                The rules were simple: 1. to make a website using only HTML and
-                CSS in under a week, and 2. make whatever you want, as long as
-                you learn something.
-               
-                This project helped me gain a better understanding of how to
-                implement assets (including music and fonts), how to create
-                stunning effects without JavaScript, and how to use CSS to make
-                simple elements on the page look like they came straight
-                from the game itself!"
+                image="/images/admin-dashboard2.png"
+                title="Admin Dashboard"
+                description="
+                All your business's statistics at a glance. Made using
+                JavaScript, HTML, TailwindCSS, React, and Nivo charts."
                 buttonText="Learn More"
-                onButtonClick={() => alert("More info about this")}
-                siteLink="https://minecraft-getaway-resort.netlify.app/"
-                tags="HTML, CSS"
+                onButtonClick={() => alert("More info about Admin Dashboard")}
+                siteLink="/"
+                tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
               />
             </Grid>
           </div>
@@ -138,15 +129,22 @@ const ShowcaseSection = () => {
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
             <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
               <InfoCard
-                image="/images/admin-dashboard2.png"
-                title="Admin Dashboard"
-                description="
-                All your business's statistics at a glance. Made using
-                JavaScript, HTML, TailwindCSS, React, and Nivo charts."
+                image="images/minecraft-site.png"
+                title="Minecraft Getaway Resort"
+                description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
+                The rules were simple: 1. to make a website using only HTML and
+                CSS in under a week, and 2. make whatever you want, as long as
+                you learn something.
+               
+                This project helped me gain a better understanding of how to
+                implement assets (including music and fonts), how to create
+                stunning effects without JavaScript, and how to use CSS to make
+                simple elements on the page look like they came straight
+                from the game itself!"
                 buttonText="Learn More"
-                onButtonClick={() => alert("More info about Admin Dashboard")}
-                siteLink="/"
-                tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
+                onButtonClick={() => alert("More info about this")}
+                siteLink="https://minecraft-getaway-resort.netlify.app/"
+                tags="HTML, CSS"
               />
             </Grid>
 
@@ -166,13 +164,15 @@ const ShowcaseSection = () => {
           <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
             <InfoCard
               className="lg:w-full md:w-full"
-              image="images/book-finder-screenshot.png"
-              title="Book Finder App"
-              description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
+              image="/images/hello-weather.png"
+              title="Hello, Weather!"
+              description="
+                Cheerful weather updates at the palm of your hand!
+                This Vite ReactJS app uses Axios and Open Weather Map API to fetch weather updates quick as lightning. All the user needs to do is type in a city and hit the search button! This app is made responsive using CSS and Tailwind CSS, meaning it will look stunning on laptops, tablets, and phone screens alike."
               buttonText="Learn More"
-              onButtonClick={() => alert("More info about Book Finder App")}
-              siteLink="https://shy-book-finder.netlify.app/"
-              tags="ReactJs, Vite, TailwindCSS, JavaScript, Google APIs, HTML, CSS"
+              onButtonClick={() => alert("More info about Admin Dashboard")}
+              siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
+              tags="React, Vite, JavaScript, GSAP, HTML, CSS, Weather API, Lucide React, Tailwind CSS"
             />
           </Grid>
         </Grid>
