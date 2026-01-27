@@ -79,7 +79,7 @@ const ShowcaseSection = () => {
           </Grid>
 
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
-            <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
+            <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
                 image="/images/sugar-sprite-crochet.png"
                 title="Sugar Sprite Crochet"
@@ -127,7 +127,7 @@ const ShowcaseSection = () => {
         <Grid container spacing={3}>
           {/* className="showcaselayout" ^ */}
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
-            <Grid item xs={12} sm={6} md={4} ref={project1Ref}>
+            <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project1Ref}>
               <InfoCard
                 image="images/minecraft-site.png"
                 title="Minecraft Getaway Resort"
