@@ -79,7 +79,7 @@ const ShowcaseSection = () => {
           </Grid>
 
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
-            <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
+            {/* <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
                 image="/images/sugar-sprite-crochet.png"
                 title="Sugar Sprite Crochet"
@@ -88,9 +88,22 @@ const ShowcaseSection = () => {
                 onButtonClick={() =>
                   alert("More info about Sugar Sprite Crochet")
                 }
-                siteLink="https://app.netlify.com/projects/sugarspritecrochet/overview"
+                siteLink="https://sugarspritecrochet.netlify.app/"
                 tags="HTML,
                 JavaScript, React, and TailwindCSS"
+              />
+            </Grid> */}
+            <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
+              <InfoCard
+                image="/images/WP_sugarspritecrochet.png"
+                title="Sugar Sprite Crochet"
+                description="The official website & blog for Sugar Sprite Crochet."
+                buttonText="Learn More"
+                onButtonClick={() =>
+                  alert("More info about Sugar Sprite Crochet")
+                }
+                siteLink="https://sugarspritecrochet.com/"
+                tags="WordPress, Elementor"
               />
             </Grid>
             <Grid
