@@ -1,29 +1,28 @@
-import { Environment, Float, OrbitControls, useGLTF } from '@react-three/drei'
-import { Canvas } from '@react-three/fiber'
-import { useEffect } from 'react';
-import * as THREE from 'three';
+import { Environment, Float, OrbitControls, useGLTF } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { useEffect } from "react";
+import * as THREE from "three";
 
 const TechIcon = ({ model }) => {
-
-  const scene = useGLTF(model.modelPath); 
+  const scene = useGLTF(model.modelPath);
 
   useEffect(() => {
     // Gets the THREE logo and makes it more visible against the black background
-    if(model.name === 'Interactive Developer') {
+    if (model.name === "Interactive Developer") {
       scene.scene.traverse((child) => {
-        if(child.isMesh && child.name === 'Object_5') {
-          child.material = new THREE.MeshStandardMaterial({ color: 'white' })
+        if (child.isMesh && child.name === "Object_5") {
+          child.material = new THREE.MeshStandardMaterial({ color: "white" });
         }
-      })
+      });
     }
-  }, [scene])
+  }, [scene]);
 
   return (
     <Canvas>
       <ambientLight intensity={0.3} />
       <directionalLight position={[5, 5, 5]} intensity={1} />
 
-      <Environment preset='city' />
+      <Environment preset="city" />
 
       <OrbitControls enableZoom={false} />
 
@@ -33,7 +32,7 @@ const TechIcon = ({ model }) => {
         </group>
       </Float>
     </Canvas>
-  )
-}
+  );
+};
 
-export default TechIcon
+export default TechIcon;
