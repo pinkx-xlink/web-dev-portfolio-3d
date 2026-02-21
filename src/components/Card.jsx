@@ -104,7 +104,7 @@ const InfoCard = ({
                 }}
               >
                 <div
-                  className="info-container-wrapper overflow-y-auto"
+                  className="info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg"
                   style={{
                     padding: "20px",
                     display: "flex",
@@ -113,9 +113,9 @@ const InfoCard = ({
                     justifyContent: "center",
                   }}
                 >
-                  <div className="info-container lg:flex lg:flex-row">
+                  <div className="info-container">
                     <div className="modal_content;">
-                      <h1 className="text-white-50 md:text-xl">{title}</h1>
+                      <h1 className="text-white-50 text-xl">{title}</h1>
                       <div
                         className="image-container lg:min-w-[400px]"
                         style={{
@@ -129,7 +129,7 @@ const InfoCard = ({
                         }}
                       >
                         <img
-                          className="sm:w-[90%]"
+                          className="sm:w-[90%] rounded-lg"
                           src={image}
                           alt={title}
                           style={{ maxWidth: "80%" }}
