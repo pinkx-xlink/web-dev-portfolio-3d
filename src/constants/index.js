@@ -162,10 +162,10 @@ const techStackImgs = [
     name: "PostgresSQL",
     imgPath: "/images/postgres-sql-img.png",
   },
-  {
-    name: "TypeScript",
-    imgPath: "/images/typescript-img.png",
-  },
+  // {
+  //   name: "TypeScript",
+  //   imgPath: "/images/typescript-img.png",
+  // },
   {
     name: "WordPress",
     imgPath: "/images/wordpress-img.png",
@@ -213,17 +213,17 @@ const techStackIcons = [
   //   rotation: [0, 0, 0],
   // },
   {
-    name: "NodeJS - Backend",
+    name: "NodeJS",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
-  {
-    name: "Three.js - 3D Modeling",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
-  },
+  // {
+  //   name: "Three.js - 3D Modeling",
+  //   modelPath: "/models/three.js-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, 0, 0],
+  // },
   {
     name: "Git",
     modelPath: "/models/git-svg-transformed.glb",
