@@ -8,13 +8,13 @@ const Footer = () => {
           className="flex flex-col justify-center md:items-start
         items-center"
         >
-          <a
+          {/* <a
             href="https://planet-shaiyan.com/blog/"
             target="_blank"
             className="hover:text-pink-400"
           >
             <i>Visit my blog</i>
-          </a>
+          </a> */}
         </div>
 
         <div className="links_container flex flex-col justify-center items-center">
