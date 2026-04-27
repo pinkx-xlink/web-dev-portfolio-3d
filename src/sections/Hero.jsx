@@ -70,8 +70,8 @@ const Hero = () => {
               className="text-white-50 md:text-xl relative z-10 
                 pointer-events-none"
             >
-              Hi, I'm Shaiyan, a developer & small business owner based in the
-              Midwest with a passion for code, creativity, and design.
+              Hi, I'm Shaiyan: developer, artist, & business-owner based in the
+              Midwest.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"

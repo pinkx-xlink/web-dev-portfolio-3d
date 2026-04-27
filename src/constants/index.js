@@ -1,10 +1,10 @@
 const navLinks = [
   {
-    name: "Work",
+    name: "Code Portfolio",
     link: "#work",
   },
   {
-    name: "Experience",
+    name: "ProfessionalExperience",
     link: "#experience",
   },
   {
