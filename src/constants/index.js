@@ -235,6 +235,12 @@ const techStackIcons = [
 
 const expCards = [
   {
+    skills: [
+      "E-commerce",
+      "Customer Service",
+      "CMS",
+      "Product Recommendations",
+    ],
     review:
       "In 2024 I leveraged my experience in customer service, shipping, inventory control, & computer literacy to build and launch my first business online with the goal to provide sustainable clothing options worldwide. We've hit 85+ sales in our first year, and are proud of our 100% customer satisfaction rate!",
     imgPath: "/images/ssc-logo.png",
@@ -254,6 +260,7 @@ const expCards = [
     ],
   },
   {
+    skills: ["ERP", "SAP", "SMS", "Office 365", "Remote Collaboration"],
     review:
       "During my contract, I worked independantly using ERP systems, SMS, and SAP to analyze and process thousands of accurate inventory adjustments per week, and collaborated with my team remotely through Outlook and Teams. My mission as the IT Programmer Analyst was to research and rectify thousands of inventory discrepancies caused by a software update, and I was able to help the team achieve this goal weeks ahead of schedule.",
     imgPath: "/images/zimmer-logo-resized.png",
@@ -273,6 +280,7 @@ const expCards = [
     ],
   },
   {
+    skills: ["SQL", "HAZMAT", "Power BI", "WMS"],
     review:
       "During my time at Archway, I had the privilege of collecting a wide variety of hands-on experience; from picking orders to being trained in SQL and HAZMAT, from temp to administrative assistant submitting timesheets to the temp agencies; from project management and processing mail, to data entry, filing, and scheduling, my time at Archway servd to hone my communcation skills, problem-solving, and teamwork.",
     imgPath: "/images/archway-logo-resized.png",
@@ -299,6 +307,12 @@ const expCards = [
     ],
   },
   {
+    skills: [
+      "Sales",
+      "Customer Service",
+      "Payment Processing",
+      "Product Recommendations",
+    ],
     review:
       "As a full-time employee I excelled in a range of responsibilities, from sales and customer service, to processing payments and presenting product/color palette recommendations.",
     imgPath: "/images/lowes-logo-resized.png",
