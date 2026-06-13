@@ -33,14 +33,16 @@ const InfoCard = ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
+        backgroundColor: "#e7e6ed",
+        padding: "10px",
 
-        "&:hover": { boxShadow: 6 },
+        "&:hover": { boxShadow: 6, backgroundColor: "#e6e1f7" },
       }}
     >
       {image && (
         <CardMedia
           component="img"
-          className="max-h-[200px]"
+          className="max-h-[300px]"
           image={image}
           alt={title}
         />

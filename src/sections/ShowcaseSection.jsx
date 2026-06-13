@@ -113,8 +113,16 @@ const ShowcaseSection = () => {
                 JavaScript, React, and TailwindCSS"
               />
             </Grid> */}
-            <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
+            <Grid
+              className="lg:w-full"
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              ref={project2Ref}
+            >
               <InfoCard
+                className="lg:w-full md:w-full"
                 image="/images/WP_sugarspritecrochet.png"
                 title="Sugar Sprite Crochet"
                 description="The official website & blog for Sugar Sprite Crochet."
@@ -123,7 +131,7 @@ const ShowcaseSection = () => {
                   alert("More info about Sugar Sprite Crochet")
                 }
                 siteLink="https://sugarspritecrochet.com/"
-                tags="WordPress, Elementor"
+                tags="WordPress, Elementor, Canva, WooCommerce, SEO Optimization"
               />
             </Grid>
             <Grid
@@ -153,15 +161,12 @@ const ShowcaseSection = () => {
       </Container>
 
       {/* SECTION 2 */}
-      <Container
-        sx={{ mt: 4 }}
-        style={{ display: "flex", justifyContent: "center" }}
-      >
-        <Grid container spacing={3}>
+      <Container sx={{ mt: 4 }}>
+        <Grid>
           {/* className="showcaselayout" ^ */}
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
             <Grid
-              className="mb-6 w-full"
+              className="lg:w-full"
               item
               xs={12}
               sm={6}
@@ -188,7 +193,14 @@ const ShowcaseSection = () => {
               />
             </Grid>
 
-            <Grid item xs={12} sm={6} md={4} ref={project2Ref}>
+            <Grid
+              className="lg:w-full"
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              ref={project2Ref}
+            >
               <InfoCard
                 image="/images/google-clone.png"
                 title="Google Clone"
@@ -201,8 +213,8 @@ const ShowcaseSection = () => {
             </Grid>
           </div>
 
-          <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
-            {/* <InfoCard
+          {/*<Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
+             <InfoCard
               className="lg:w-full md:w-full"
               image="/images/hello-weather.png"
               title="Hello, Weather!"
@@ -213,8 +225,8 @@ const ShowcaseSection = () => {
               onButtonClick={() => alert("More info about Admin Dashboard")}
               siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
               tags="React, Vite, JavaScript, GSAP, HTML, CSS, Weather API, Lucide React, Tailwind CSS"
-            /> */}
-          </Grid>
+            /> 
+          </Grid>*/}
         </Grid>
       </Container>
     </section>
