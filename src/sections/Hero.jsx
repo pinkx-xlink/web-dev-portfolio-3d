@@ -70,8 +70,7 @@ const Hero = () => {
               className="text-white-50 md:text-xl relative z-10 
                 pointer-events-none"
             >
-              Hi, I'm Shaiyan: developer, artist, & business-owner based in the
-              Midwest.
+              Hi, I'm Shaiyan: web developer & small business-owner.
             </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
@@ -82,12 +81,11 @@ const Hero = () => {
         </header>
 
         {/* RIGHT: 3D MODEL */}
-
-        <figure>
+        {/* <figure>
           <div className="hero-3d-layout">
             <HeroExperience />
           </div>
-        </figure>
+        </figure> */}
       </div>
 
       <AnimatedCounter />
