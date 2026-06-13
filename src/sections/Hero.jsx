@@ -32,7 +32,7 @@ const Hero = () => {
         <img src="/images/bg.png" alt="background" />
       </div>
 
-      <div className="hero-layout">
+      <div className="hero-layout h-40 lg:h-100">
         {/* LEFT HERO CONTENT */}
         <header
           className="flex flex-col justify-center
