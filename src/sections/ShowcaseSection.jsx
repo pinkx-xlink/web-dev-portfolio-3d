@@ -182,7 +182,7 @@ const ShowcaseSection = () => {
           </div>
 
           <Grid className="w-full" item xs={12} sm={6} md={4} ref={project3Ref}>
-            <InfoCard
+            {/* <InfoCard
               className="lg:w-full md:w-full"
               image="/images/hello-weather.png"
               title="Hello, Weather!"
@@ -193,7 +193,7 @@ const ShowcaseSection = () => {
               onButtonClick={() => alert("More info about Admin Dashboard")}
               siteLink="https://vermillion-muffin-cf8cad.netlify.app/"
               tags="React, Vite, JavaScript, GSAP, HTML, CSS, Weather API, Lucide React, Tailwind CSS"
-            />
+            /> */}
           </Grid>
         </Grid>
       </Container>
