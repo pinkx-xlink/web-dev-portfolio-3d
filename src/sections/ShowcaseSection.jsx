@@ -77,27 +77,6 @@ const ShowcaseSection = () => {
               tags="WordPress, PHP, Elementor, React, Gutenberg, Plugins"
             />
           </Grid>
-
-          <Grid
-            className="lg:w-full"
-            item
-            xs={12}
-            sm={6}
-            md={4}
-            ref={project1Ref}
-          >
-            <InfoCard
-              className="lg:w-full md:w-full"
-              image="images/book-finder-screenshot.png"
-              title="Book Finder App"
-              description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
-              buttonText="Learn More"
-              onButtonClick={() => alert("More info about Book Finder App")}
-              siteLink="https://shy-book-finder.netlify.app/"
-              tags="ReactJs, Vite, TailwindCSS, JavaScript, Google APIs, HTML, CSS"
-            />
-          </Grid>
-
           <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
             {/* <Grid className="mb-6" item xs={12} sm={6} md={4} ref={project2Ref}>
               <InfoCard
@@ -156,6 +135,27 @@ const ShowcaseSection = () => {
               />
             </Grid>
           </div>
+
+          <Grid
+            className="lg:w-full"
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            ref={project1Ref}
+          >
+            <InfoCard
+              className="lg:w-full md:w-full"
+              image="images/book-finder-screenshot.png"
+              title="Book Finder App"
+              description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
+              buttonText="Learn More"
+              onButtonClick={() => alert("More info about Book Finder App")}
+              siteLink="https://shy-book-finder.netlify.app/"
+              tags="ReactJs, Vite, TailwindCSS, JavaScript, Google APIs, HTML, CSS"
+            />
+          </Grid>
+
           {/* </div> */}
         </Grid>
       </Container>
@@ -164,7 +164,7 @@ const ShowcaseSection = () => {
       <Container sx={{ mt: 4 }}>
         <Grid>
           {/* className="showcaselayout" ^ */}
-          <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-row flex-col gap-6">
+          <div className="project-group lg:w-full lg:flex lg:flex-row lg:justify-between sm:flex sm:flex-rowflex-col gap-6">
             <Grid
               className="lg:w-full"
               item

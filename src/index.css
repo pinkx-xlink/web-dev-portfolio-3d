@@ -23,6 +23,22 @@ section {
   width: 100dvw;
 }
 
+@media screen and (max-width: 768px) {
+  .project-group {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+}
+
 .site-link {
   color: #82b1ff;
   transition: all 0.3s ease-in-out;

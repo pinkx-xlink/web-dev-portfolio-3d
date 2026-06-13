@@ -35,6 +35,7 @@ const InfoCard = ({
         alignItems: "center",
         backgroundColor: "#e7e6ed",
         padding: "10px",
+        // marginBottom: "10px",
 
         "&:hover": { boxShadow: 6, backgroundColor: "#e6e1f7" },
       }}
