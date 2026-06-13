@@ -68,6 +68,26 @@ const ShowcaseSection = () => {
           >
             <InfoCard
               className="lg:w-full md:w-full"
+              image="images/fake-uni.png"
+              title="(Fake) University Blog"
+              description="A WordPress blog for a fictional university, complete with custom themes and plugins."
+              buttonText="Learn More"
+              onButtonClick={() => alert("More info about Book Finder App")}
+              siteLink="https://www.fakeuni.org/"
+              tags="WordPress, PHP, Elementor, React, Gutenberg, Plugins"
+            />
+          </Grid>
+
+          <Grid
+            className="lg:w-full"
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            ref={project1Ref}
+          >
+            <InfoCard
+              className="lg:w-full md:w-full"
               image="images/book-finder-screenshot.png"
               title="Book Finder App"
               description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
