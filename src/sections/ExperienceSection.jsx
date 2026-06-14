@@ -96,6 +96,9 @@ const ExperienceSection = () => {
                       </div>
 
                       <div>
+                        <div className="w-full flex justify-center">
+                          <img className="h-16" src={card.imgPath} alt="logo" />
+                        </div>
                         <h1 className="font-semibold text-3xl text-center">
                           <i>{card.title}</i> @ {card.company}
                         </h1>

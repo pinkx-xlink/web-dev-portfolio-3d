@@ -27,23 +27,23 @@ const GlowCard = ({ card, children, index }) => {
       className="card
 card-bordr timeline-card rounded-xl p-10 mb-5 break-inside-avoid-column"
     >
-      <div className="glow" />
+      <div className="lg:glow" />
       <div className="flex items-center gap-1 mb-5">
         {/* {Array.from({ length: 5 }, (_, i) => (
           <img src="/images/star.png" key={i} alt="star" className="size-5" />
         ))} */}
       </div>
-      <div className="mb-5">
+      <div className="mb-5 flex flex-col items-center justify-left">
         <h2 className="text-white-50 text-xl font-bold">Skills:</h2>
         <ul>
           {card.skills.map((skill, index) => (
-            <li key={index} className="text-white-50 text-lg">
+            <li key={index} className="text-white-50 text-lg list-disc">
               {skill}
             </li>
           ))}
         </ul>
       </div>
-      {children}
+      {/* {children} */}
     </div>
   );
 };
