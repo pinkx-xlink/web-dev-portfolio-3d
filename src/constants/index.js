@@ -39,13 +39,13 @@ const words = [
 
 // MY values:
 const counterItems = [
-  { value: 7, suffix: "+", label: "Years of Experience" },
-  { value: 3, suffix: "+", label: "Years of Code" },
-  { value: 100, suffix: "+", label: "Completed Projects" },
+  { value: 16, suffix: "+", label: "Years of Computer Literacy" },
+  { value: 3, suffix: "+", label: "Years of Programming" },
+  { value: 100, suffix: "+", label: "Programming Projects" },
   {
-    value: 100,
-    suffix: "%",
-    label: "Excited To See If I'm A Good Fit For Your Team!",
+    value: 24,
+    suffix: "/7",
+    label: "Seeking to Expand My Horizons",
   },
 ];
 
