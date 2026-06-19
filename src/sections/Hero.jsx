@@ -95,7 +95,7 @@ const Hero = () => {
               <img
                 src={myPicrew}
                 alt="Profile"
-                className="lg:w-84 lg:h-84 rounded-tr-[60%] rounded-bl-[60%] object-cover max-sm:h-35"
+                className="lg:w-84 lg:h-84 rounded-tr-[60%] md:hidden rounded-bl-[60%] object-cover max-sm:h-35"
               />
             </div>
           </div>
