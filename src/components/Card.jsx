@@ -107,7 +107,7 @@ const InfoCard = ({
                 }}
               >
                 <div
-                  className="info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg"
+                  className="info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg h-full w-full overscroll-none"
                   style={{
                     padding: "20px",
                     display: "flex",
@@ -116,6 +116,21 @@ const InfoCard = ({
                     justifyContent: "center",
                   }}
                 >
+                  <button
+                    className="flex self-end"
+                    onClick={close}
+                    style={{
+                      color: "#333",
+                      width: "80px",
+                      height: "30px",
+                      border: "none",
+                      cursor: "pointer",
+
+                      "&:hover": { backgroundColor: "gray" },
+                    }}
+                  >
+                    <CircleX className="bg-gray-300 hover:bg-gray-400 rounded-full" />
+                  </button>
                   <div className="info-container">
                     <div className="modal_content;">
                       <h1 className="text-white-50 text-xl">{title}</h1>
@@ -138,48 +153,33 @@ const InfoCard = ({
                           style={{ maxWidth: "80%" }}
                         />
                       </div>
-                    </div>
-                    <div className="modal_text">
-                      <p
-                        className="text-white-50 md:text-large"
-                        style={{
-                          marginBottom: "20px",
-                          textAlign: "center",
-                          maxwidth: "400px",
-                          padding: "10px",
-                        }}
-                      >
-                        {description}
-                      </p>
-                      <p>
-                        Visit this website:{" "}
-                        <a
-                          href={siteLink}
-                          className="site-link"
-                          target="_blank"
+
+                      {/* TEXT */}
+                      <div className="modal_text">
+                        <p
+                          className="text-white-50 md:text-large"
+                          style={{
+                            marginBottom: "20px",
+                            textAlign: "center",
+                            maxwidth: "400px",
+                            padding: "10px",
+                          }}
                         >
-                          {siteLink}
-                        </a>{" "}
-                      </p>
+                          {description}
+                        </p>
+                        <p>
+                          Visit this website:{" "}
+                          <a
+                            href={siteLink}
+                            className="site-link"
+                            target="_blank"
+                          >
+                            {siteLink}
+                          </a>{" "}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                  <button
-                    className="absolute top-1 right-1"
-                    onClick={close}
-                    style={{
-                      color: "#333",
-
-                      width: "80px",
-                      height: "30px",
-
-                      border: "none",
-                      cursor: "pointer",
-
-                      "&:hover": { backgroundColor: "gray" },
-                    }}
-                  >
-                    <CircleX className="bg-pink-600 rounded-full" />
-                  </button>
                 </div>
               </div>
             )}
