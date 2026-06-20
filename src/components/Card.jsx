@@ -25,6 +25,7 @@ const InfoCard = ({
 }) => {
   return (
     <Card
+      className="bg-gray-300"
       sx={{
         // maxWidth: 345,
         boxShadow: 3,
@@ -33,7 +34,7 @@ const InfoCard = ({
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        backgroundColor: "#e7e6ed",
+        // backgroundColor: "#e7e6ed",
         padding: "10px",
         marginBottom: "10px",
 
@@ -43,7 +44,7 @@ const InfoCard = ({
       {image && (
         <CardMedia
           component="img"
-          className="max-h-[300px]"
+          className="max-h-[500px]"
           image={image}
           alt={title}
         />
