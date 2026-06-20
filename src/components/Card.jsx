@@ -92,6 +92,7 @@ const InfoCard = ({
           >
             {(close) => (
               <div
+                className=""
                 style={{
                   padding: "20px",
                   textAlign: "center",
@@ -99,7 +100,6 @@ const InfoCard = ({
                   height: "100vh",
                   width: "100vw",
                   display: "flex",
-
                   flexDirection: "column",
                   justifyContent: "center",
                   alignItems: "center",
@@ -107,21 +107,17 @@ const InfoCard = ({
                 }}
               >
                 <div
-                  className="info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg h-full w-full overscroll-none"
+                  className="flex lg:justify-center info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg h-full w-full overscroll-none"
                   style={{
-                    padding: "20px",
-                    display: "flex",
                     flexDirection: "column",
                     alignItems: "center",
-                    justifyContent: "center",
                   }}
                 >
                   <button
-                    className="flex self-end"
+                    className="absolute right-6 top-6 m-5 self-end"
                     onClick={close}
                     style={{
                       color: "#333",
-                      width: "80px",
                       height: "30px",
                       border: "none",
                       cursor: "pointer",
@@ -131,20 +127,23 @@ const InfoCard = ({
                   >
                     <CircleX className="bg-gray-300 hover:bg-gray-400 rounded-full" />
                   </button>
+
                   <div className="info-container">
-                    <div className="modal_content;">
-                      <h1 className="text-white-50 text-xl">{title}</h1>
+                    <h1 className="text-black-50 bg-gray-200 text-xl lg:text-2xl lg:mb-10">
+                      {title}
+                    </h1>
+                    <div className="modal_content flex flex-col items-center lg:flex-row">
                       <div
-                        className="image-container lg:min-w-[400px]"
-                        style={{
-                          maxWidth: "550px",
-                          borderRadius: "5px",
-                          overflow: "hidden",
-                          display: "flex",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          margin: "20px auto",
-                        }}
+                        className="image-container h-full w-full flex justify-center items-center"
+                        // style={{
+                        //   maxWidth: "550px",
+                        //   borderRadius: "5px",
+                        //   overflow: "hidden",
+                        //   display: "flex",
+                        //   justifyContent: "center",
+                        //   alignItems: "center",
+                        //   margin: "20px auto",
+                        // }}
                       >
                         <img
                           className="sm:w-[90%] rounded-lg"
@@ -155,14 +154,11 @@ const InfoCard = ({
                       </div>
 
                       {/* TEXT */}
-                      <div className="modal_text">
+                      <div className="modal_text text-left">
                         <p
                           className="text-white-50 md:text-large"
                           style={{
-                            marginBottom: "20px",
-                            textAlign: "center",
                             maxwidth: "400px",
-                            padding: "10px",
                           }}
                         >
                           {description}
