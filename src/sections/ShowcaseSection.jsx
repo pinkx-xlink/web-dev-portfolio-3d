@@ -98,7 +98,7 @@ const ShowcaseSection = () => {
               xs={12}
               sm={6}
               md={4}
-              ref={project2Ref}
+              ref={project1Ref}
             >
               <InfoCard
                 className="lg:w-full md:w-full"
@@ -119,7 +119,7 @@ const ShowcaseSection = () => {
               xs={12}
               sm={6}
               md={4}
-              ref={project3Ref}
+              ref={project2Ref}
             >
               <InfoCard
                 className="lg:w-full md:w-full"

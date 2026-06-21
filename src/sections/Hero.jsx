@@ -91,11 +91,11 @@ const Hero = () => {
             </div>
 
             {/* Profile Image */}
-            <div className="profile-image-container flex justify-center lg:justify-end max-sm:hidden">
+            <div className="profile-image-container flex justify-end">
               <img
                 src={myPicrew}
                 alt="Profile"
-                className="lg:w-84 lg:h-84 md:w-40 md:h-40 rounded-tr-[60%] rounded-bl-[60%] object-cover max-sm:h-35"
+                className="lg:w-84 lg:h-84 rounded-tr-[60%] rounded-bl-[60%] hidden lg:block"
               />
             </div>
           </div>

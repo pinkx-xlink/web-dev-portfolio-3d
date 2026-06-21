@@ -108,7 +108,7 @@ const InfoCard = ({
                 }}
               >
                 <div
-                  className="flex lg:justify-center info-container-wrapper overflow-y-auto bg-gray-800 rounded-lg h-full w-full overscroll-none"
+                  className="flex lg:justify-center info-container-wrapper overflow-y-auto bg-blue-100 rounded-lg h-full w-full overscroll-none"
                   style={{
                     flexDirection: "column",
                     alignItems: "center",
