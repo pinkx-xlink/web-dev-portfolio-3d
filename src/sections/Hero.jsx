@@ -74,14 +74,14 @@ const Hero = () => {
               >
                 Hi, I'm Shaiyan: web developer & small business-owner.
               </p>
-
-              <div className="profile-image-container flex justify-center lg:justify-end md:hidden">
+              {/* 
+              <div className="profile-image-container flex justify-center lg:justify-end">
                 <img
                   src={myPicrew}
                   alt="Profile"
-                  className="rounded-tr-[60%] rounded-bl-[60%] object-cover max-sm:h-35"
+                  className="rounded-tr-[60%] rounded-bl-[60%] object-cover max-sm:h-35 "
                 />
-              </div>
+              </div> */}
 
               <Button
                 className="md:w-80 md:h-16 w-60 h-12"
@@ -95,7 +95,7 @@ const Hero = () => {
               <img
                 src={myPicrew}
                 alt="Profile"
-                className="lg:w-84 lg:h-84 rounded-tr-[60%] md:hidden rounded-bl-[60%] object-cover max-sm:h-35"
+                className="lg:w-84 lg:h-84 md:w-40 md:h-40 rounded-tr-[60%] rounded-bl-[60%] object-cover max-sm:h-35"
               />
             </div>
           </div>

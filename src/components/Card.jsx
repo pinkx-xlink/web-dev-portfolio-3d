@@ -133,7 +133,7 @@ const InfoCard = ({
                     <h1 className="text-black-50 bg-gray-200 text-xl lg:text-2xl lg:mb-10">
                       {title}
                     </h1>
-                    <div className="modal_content flex flex-col items-center lg:flex-row">
+                    <div className="modal_content flex flex-col items-center lg:flex-row lg:justify-between gap-10">
                       <div
                         className="image-container h-full w-full flex justify-center items-center"
                         // style={{
@@ -155,7 +155,7 @@ const InfoCard = ({
                       </div>
 
                       {/* TEXT */}
-                      <div className="modal_text text-left">
+                      <div className="modal_text text-left w-full lg:w-1/2 flex flex-col gap-5">
                         <p
                           className="text-white-50 md:text-large"
                           style={{
