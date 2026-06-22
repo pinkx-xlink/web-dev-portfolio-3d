@@ -213,6 +213,7 @@ const LargeInfoCard = ({
                                 {challenge.screenshot ? (
                                   <img
                                     src={challenge.screenshot}
+                                    // src={`${process.env.PUBLIC_URL}/img/${challenge.id}.jpg`}
                                     alt={challenge.title}
                                   />
                                 ) : (

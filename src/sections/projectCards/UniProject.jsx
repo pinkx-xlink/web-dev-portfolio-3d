@@ -1,6 +1,7 @@
 import React from "react";
 import InfoCard from "../../components/Card";
 import LargeInfoCard from "../../components/CardLarge";
+// import searchScreenshot from "./img/fake-uni-search-code.png";
 
 const UniProject = () => {
   return (
@@ -19,12 +20,13 @@ const UniProject = () => {
         {
           id: "1",
           title: "Live Search",
-          screenshot: "img/fake-uni-search-code.png",
+          // screenshot: { searchScreenshot },
+          screenshot: "../fake-uni-search-code.png",
           challenge:
-            "When implementing the Javascript-powered live search bar, I used S as the hotkey to open the searchbar mouse-free. I followed an outdated tutorial which didn't account for the S key opening the Search component when typing in other sections of the site, like the Notes section. I solved the issue by adding _",
+            "When implementing the Javascript-powered live search bar, I used S as the hotkey to open the searchbar mouse-free. I followed an outdated tutorial which didn't account for the S key opening the Search component when typing in other sections of the site, like the Notes section. I solved the issue (after some Googling) by adding additional parameters.",
         },
-        { id: "2", title: "", challenge: "alks" },
-        { id: "3", title: "", challenge: "lkams" },
+        { id: "2", title: "", challenge: " " },
+        { id: "3", title: "", challenge: " " },
       ]}
       buttonText="Learn More"
       onButtonClick={() => alert("More info about Book Finder App")}
