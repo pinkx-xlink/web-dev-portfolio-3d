@@ -67,7 +67,7 @@ const ShowcaseSection = () => {
             ref={project1Ref}
           >
             <InfoCard
-              className="lg:w-full md:w-full"
+              className="wide-project-card lg:w-full md:w-full"
               image="images/fake-uni.png"
               title="(Fake) University Blog"
               description="A WordPress blog for a fictional university, complete with custom themes and plugins."

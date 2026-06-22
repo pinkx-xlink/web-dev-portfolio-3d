@@ -14,7 +14,8 @@ import { CircleX } from "lucide-react";
  * InfoCard Component
  * Displays an image, title, description, and optional action button.
  */
-const InfoCard = ({
+
+const SmallInfoCard = ({
   image,
   title,
   description,
@@ -180,7 +181,7 @@ const InfoCard = ({
 };
 
 // Prop type validation
-InfoCard.propTypes = {
+SmallInfoCard.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
@@ -189,10 +190,10 @@ InfoCard.propTypes = {
 };
 
 // Default props
-InfoCard.defaultProps = {
+SmallInfoCard.defaultProps = {
   image: "",
   buttonText: "",
   onButtonClick: () => {},
 };
 
-export default InfoCard;
+export default SmallInfoCard;

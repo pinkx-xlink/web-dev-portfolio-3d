@@ -4,7 +4,7 @@ import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
-import myPicrew from "/images/picrew-me.png";
+import myPicrew from "/images/picrew-me-blue.png";
 
 const Hero = () => {
   useGSAP(() => {
@@ -95,7 +95,7 @@ const Hero = () => {
               <img
                 src={myPicrew}
                 alt="Profile"
-                className="lg:w-84 lg:h-84 rounded-tr-[60%] rounded-bl-[60%] hidden lg:block"
+                className="w-84 h-84 rounded-tr-[60%] rounded-bl-[60%] hidden lg:block"
               />
             </div>
           </div>
