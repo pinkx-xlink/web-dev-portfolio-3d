@@ -156,7 +156,9 @@ const InfoCard = ({
                             className="site-link"
                             target="_blank"
                           >
-                            <i>Visit this website</i>
+                            <i>
+                              Visit the <u>live website demo</u>
+                            </i>
                           </a>
                         ) : (
                           <></>
