@@ -77,14 +77,14 @@ const InfoCard = ({
                 style={{
                   color: "#fff",
                   backgroundColor: "black",
-                  width: "80px",
+                  width: "180px",
                   height: "30px",
                   borderRadius: "5px",
                   border: "none",
                   cursor: "pointer",
                 }}
               >
-                More
+                Read More...
               </button>
             }
             modal
