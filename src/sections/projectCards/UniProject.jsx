@@ -1,9 +1,10 @@
 import React from "react";
 import InfoCard from "../../components/Card";
+import LargeInfoCard from "../../components/CardLarge";
 
 const UniProject = () => {
   return (
-    <InfoCard
+    <LargeInfoCard
       className="wide-project-card lg:w-full md:w-full"
       image1="images/fake-uni.png"
       image2="images/fake-uni-mobile.png"

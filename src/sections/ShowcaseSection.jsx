@@ -12,6 +12,7 @@ import LibraryApp from "./projectCards/LibraryApp";
 import MinecraftSite from "./projectCards/MinecraftSite";
 import GoogleClone from "./projectCards/GoogleClone";
 import CvBuilder from "./projectCards/CvBuilder";
+import LargeInfoCard from "../components/CardLarge";
 
 gsap.registerPlugin(ScrollTrigger);
 
