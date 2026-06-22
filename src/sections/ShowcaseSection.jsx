@@ -11,6 +11,8 @@ import AdminDashboard from "./projectCards/AdminDashboard";
 import LibraryApp from "./projectCards/LibraryApp";
 import MinecraftSite from "./projectCards/MinecraftSite";
 import GoogleClone from "./projectCards/GoogleClone";
+import CvBuilder from "./projectCards/CvBuilder";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const ShowcaseSection = () => {
@@ -109,6 +111,17 @@ const ShowcaseSection = () => {
               <AdminDashboard />
             </Grid>
           </div>
+
+          <Grid
+            className="lg:w-full"
+            item
+            xs={12}
+            sm={6}
+            md={4}
+            ref={project1Ref}
+          >
+            <CvBuilder />
+          </Grid>
 
           <Grid
             className="lg:w-full"
