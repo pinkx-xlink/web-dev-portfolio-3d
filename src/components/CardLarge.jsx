@@ -145,18 +145,23 @@ const LargeInfoCard = ({
                     </button>
 
                     <div className="info-container m-auto overflow-y-auto">
-                      <h1 className="text-black-50 text-2xl lg:mt-40 max-lg:mt-20 mb-10">
+                      <h1 className="text-blue-900 text-4xl lg:mt-40 max-lg:mt-20 mb-10">
                         {title}
                       </h1>
                       <div className="modal_content flex flex-col items-center gap-10">
                         {/* TEXT */}
-                        <h2 className="text-black-50 text-xl lg:text-2xl">
-                          About This Project
-                        </h2>
+
                         <div className="modal_text text-left w-full items-center-safe md:w-3/4 flex flex-col pl-10 pr-10">
-                          <p className="text-black-50 md:text-large mb-2">
+                          <h2 className="text-black-50 text-xl lg:text-2xl mb-4">
+                            About This Project
+                          </h2>
+
+                          <p className="text-black-50 md:text-large mb-4">
                             {fullDescription || description}
+                            <br />
+                            <strong>Languages & tools used:</strong> {tags}
                           </p>
+
                           <div
                             className="image-container h-full md:w-200 flex justify-center items-center-safe"
                             // style={{
@@ -191,13 +196,10 @@ const LargeInfoCard = ({
                             )}
                           </p>
                           <br />
-                          <p className="text-black-50 md:text-large">
-                            <strong>Languages & tools used:</strong> {tags}
-                          </p>
 
                           <br />
                           <h2 className="text-black-50 text-xl lg:text-2xl">
-                            Challenges{" "}
+                            Challenges & My Solutions{" "}
                           </h2>
                           <ul>
                             {/* {challenges.map((challenge) => (
@@ -207,8 +209,10 @@ const LargeInfoCard = ({
                             ))} */}
                             {challenges.map((challenge) => (
                               <li key={challenge.id} className="mb-2">
-                                <h3>{challenge.title}</h3>-{" "}
-                                {challenge.challenge}
+                                <h3>
+                                  <i>{challenge.title}</i>
+                                </h3>
+                                <p className="m-2">{challenge.challenge}</p>
                                 {challenge.screenshot ? (
                                   <img
                                     src={challenge.screenshot}

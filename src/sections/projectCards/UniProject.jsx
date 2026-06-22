@@ -24,7 +24,7 @@ const UniProject = () => {
           screenshot: "images/fake-uni-search-code.png",
           // screenshot: { searchScreenshot },
           challenge:
-            "When implementing the Javascript-powered live search bar, I used S as the hotkey to open the searchbar mouse-free. I followed an outdated tutorial which didn't account for the S key opening the Search component when typing in other sections of the site, like the Notes section. I solved the issue (after some Googling) by adding additional parameters.",
+            "When implementing the Javascript-powered live search bar, I used S as the hotkey to open the searchbar mouse-free. I followed an outdated tutorial for the Javascript-powered live search functionality, which didn't account for the S hot key opening the Search component when the user is typing in other sections of the site--so imagine every time you're typing a post for your website, the S key is basically impossible to use. I solved the issue (after some Googling) by adding additional parameters that ensure the search bar won't intrude while users are typing within a text or input field! (See lines 164-171.)",
         },
         { id: "2", title: "", challenge: " " },
         { id: "3", title: "", challenge: " " },
