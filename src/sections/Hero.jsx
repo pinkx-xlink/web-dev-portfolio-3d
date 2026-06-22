@@ -84,7 +84,7 @@ const Hero = () => {
                 id="button"
                 text="See my Work"
                 onClick={() => {
-                  const workSection = document.querySelector("#work");
+                  const workSection = document.querySelectorAll("#work");
                   workSection.scrollIntoView({ behavior: "smooth" });
                 }}
               />

@@ -25,6 +25,7 @@ const LargeInfoCard = ({
   onButtonClick,
   siteLink,
   githubLink,
+  challenges,
   tags,
 }) => {
   return (
@@ -195,6 +196,18 @@ const LargeInfoCard = ({
                           </p>
 
                           <br />
+                          <ul>
+                            {/* {challenges.map((challenge) => (
+                              <li key={challenge.id}>
+                                {challenge.sumary} - {challenge.solution}
+                              </li>
+                            ))} */}
+                            {challenges.map((challenge) => (
+                              <li>- {challenge}</li>
+                            ))}
+                          </ul>
+
+                          <br />
 
                           {githubLink ? (
                             <p>
@@ -236,6 +249,7 @@ LargeInfoCard.propTypes = {
   buttonText: PropTypes.string,
   onButtonClick: PropTypes.func,
   githubLink: PropTypes.string,
+  challenges: PropTypes.array,
 };
 
 // Default props
@@ -245,6 +259,7 @@ LargeInfoCard.defaultProps = {
   image3: "",
   buttonText: "",
   githubLink: "",
+  challenges: "",
   onButtonClick: () => {},
 };
 
