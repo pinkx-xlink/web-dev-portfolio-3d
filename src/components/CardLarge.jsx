@@ -126,7 +126,7 @@ const LargeInfoCard = ({
                   }}
                 >
                   <div
-                    className="flex lg:justify-center info-container-wrapper overflow-y-auto bg-gray-100 rounded-lg h-full w-full overscroll-none"
+                    className="flex lg:justify-center info-container-wrapper m-auto overflow-y-auto bg-gray-100 rounded-lg h-full w-full overscroll-none"
                     style={{
                       flexDirection: "column",
                       alignItems: "center",
@@ -144,52 +144,51 @@ const LargeInfoCard = ({
                       <CircleX className="bg-gray-300 hover:bg-gray-400 rounded-full " />
                     </button>
 
-                    <div className="info-container">
+                    <div className="info-container m-auto overflow-y-auto">
                       <h1 className="text-black-50 text-2xl lg:mt-40 max-lg:mt-20 mb-10">
                         {title}
                       </h1>
                       <div className="modal_content flex flex-col items-center gap-10">
-                        <div
-                          className="image-container  h-full md:w-200 flex justify-center items-center"
-                          // style={{
-                          //   maxWidth: "550px",
-                          //   borderRadius: "5px",
-                          //   overflow: "hidden",
-                          //   display: "flex",
-                          //   justifyContent: "center",
-                          //   alignItems: "center",
-                          //   margin: "20px auto",
-                          // }}
-                        >
-                          <img
-                            className="border-1 border-gray-200 rounded-lg sm:w-[90%] rounded-lg"
-                            src={image1}
-                            alt={title}
-                          />
-                        </div>
-                        <p className="site-link">
-                          {siteLink ? (
-                            <a
-                              href={siteLink}
-                              className="site-link"
-                              target="_blank"
-                            >
-                              <i>
-                                Visit the <u>live website demo</u>
-                              </i>
-                            </a>
-                          ) : (
-                            <></>
-                          )}
-                        </p>
-
                         {/* TEXT */}
                         <h2 className="text-black-50 text-xl lg:text-2xl">
                           About This Project
                         </h2>
-                        <div className="modal_text text-left w-full md:w-3/4 flex flex-col pl-10 pr-10">
+                        <div className="modal_text text-left w-full items-center-safe md:w-3/4 flex flex-col pl-10 pr-10">
                           <p className="text-black-50 md:text-large mb-2">
                             {fullDescription || description}
+                          </p>
+                          <div
+                            className="image-container h-full md:w-200 flex justify-center items-center-safe"
+                            // style={{
+                            //   maxWidth: "550px",
+                            //   borderRadius: "5px",
+                            //   overflow: "hidden",
+                            //   display: "flex",
+                            //   justifyContent: "center",
+                            //   alignItems: "center",
+                            //   margin: "20px auto",
+                            // }}
+                          >
+                            <img
+                              className="border-1 border-gray-200 rounded-lg sm:w-[90%] rounded-lg"
+                              src={image1}
+                              alt={title}
+                            />
+                          </div>
+                          <p className="site-link">
+                            {siteLink ? (
+                              <a
+                                href={siteLink}
+                                className="site-link"
+                                target="_blank"
+                              >
+                                <i>
+                                  Visit the <u>live website demo</u>
+                                </i>
+                              </a>
+                            ) : (
+                              <></>
+                            )}
                           </p>
                           <br />
                           <p className="text-black-50 md:text-large">
