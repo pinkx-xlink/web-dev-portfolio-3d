@@ -18,6 +18,7 @@ const LargeInfoCard = ({
   image1,
   image2,
   image3,
+
   title,
   description,
   fullDescription,
@@ -196,6 +197,9 @@ const LargeInfoCard = ({
                           </p>
 
                           <br />
+                          <h2 className="text-black-50 text-xl lg:text-2xl">
+                            Challenges{" "}
+                          </h2>
                           <ul>
                             {/* {challenges.map((challenge) => (
                               <li key={challenge.id}>
@@ -203,7 +207,18 @@ const LargeInfoCard = ({
                               </li>
                             ))} */}
                             {challenges.map((challenge) => (
-                              <li>- {challenge}</li>
+                              <li key={challenge.id} className="mb-2">
+                                <h3>{challenge.title}</h3>-{" "}
+                                {challenge.challenge}
+                                {challenge.screenshot ? (
+                                  <img
+                                    src={challenge.screenshot}
+                                    alt={challenge.title}
+                                  />
+                                ) : (
+                                  ""
+                                )}
+                              </li>
                             ))}
                           </ul>
 
@@ -244,6 +259,7 @@ LargeInfoCard.propTypes = {
   image1: PropTypes.string,
   image2: PropTypes.string,
   image3: PropTypes.string,
+
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   buttonText: PropTypes.string,
@@ -257,6 +273,7 @@ LargeInfoCard.defaultProps = {
   image1: "",
   image2: "",
   image3: "",
+
   buttonText: "",
   githubLink: "",
   challenges: "",
