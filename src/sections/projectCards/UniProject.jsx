@@ -10,6 +10,7 @@ const UniProject = () => {
       image1="images/fake-uni.png"
       image2="images/fake-uni-mobile.png"
       image3="images/fake-uni-mobile2.png"
+      // image4="images/fake-uni-search-code.png"
       // image4="img/fake-uni-search-code.png"
       title="(Fake) University Blog"
       description="A WordPress blog for a fictional university, complete with custom themes and plugins."
@@ -20,8 +21,8 @@ const UniProject = () => {
         {
           id: "1",
           title: "Live Search",
+          screenshot: "images/fake-uni-search-code.png",
           // screenshot: { searchScreenshot },
-          screenshot: "../fake-uni-search-code.png",
           challenge:
             "When implementing the Javascript-powered live search bar, I used S as the hotkey to open the searchbar mouse-free. I followed an outdated tutorial which didn't account for the S key opening the Search component when typing in other sections of the site, like the Notes section. I solved the issue (after some Googling) by adding additional parameters.",
         },
