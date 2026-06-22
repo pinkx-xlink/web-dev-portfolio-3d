@@ -15,7 +15,9 @@ import { CircleX } from "lucide-react";
  * Displays an image, title, description, and optional action button.
  */
 const InfoCard = ({
-  image,
+  image1,
+  image2,
+  image3,
   title,
   description,
   fullDescription,
@@ -43,11 +45,11 @@ const InfoCard = ({
         "&:hover": { boxShadow: 6 },
       }}
     >
-      {image && (
+      {image1 && (
         <CardMedia
           component="img"
           className="max-h-[500px] border-1 border-gray-500 rounded-lg"
-          image={image}
+          image={image1}
           alt={title}
         />
       )}
@@ -145,7 +147,7 @@ const InfoCard = ({
                       >
                         <img
                           className="border-1 border-gray-200 rounded-lg sm:w-[90%] rounded-lg"
-                          src={image}
+                          src={image1}
                           alt={title}
                         />
                       </div>
@@ -211,7 +213,9 @@ const InfoCard = ({
 
 // Prop type validation
 InfoCard.propTypes = {
-  image: PropTypes.string,
+  image1: PropTypes.string,
+  image2: PropTypes.string,
+  image3: PropTypes.string,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   buttonText: PropTypes.string,
@@ -221,7 +225,9 @@ InfoCard.propTypes = {
 
 // Default props
 InfoCard.defaultProps = {
-  image: "",
+  image1: "",
+  image2: "",
+  image3: "",
   buttonText: "",
   githubLink: "",
   onButtonClick: () => {},

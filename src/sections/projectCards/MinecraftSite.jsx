@@ -4,7 +4,9 @@ import InfoCard from "../../components/Card";
 const MinecraftSite = () => {
   return (
     <InfoCard
-      image="images/minecraft-site.png"
+      image1="images/minecraft-site.png"
+      image2=""
+      image3=""
       title="Minecraft Getaway Resort"
       description="  My entry for the MHL's Cloud Week Challenge: my first Hackathon!
                 The rules were simple: 1. to make a website using only HTML and

@@ -5,7 +5,9 @@ const SugarSpriteCrochet = () => {
   return (
     <InfoCard
       className="lg:w-full md:w-full"
-      image="/images/WP_sugarspritecrochet.png"
+      image1="/images/WP_sugarspritecrochet.png"
+      image2=""
+      image3=""
       title="Sugar Sprite Crochet"
       description="The official website & blog for Sugar Sprite Crochet."
       buttonText="Learn More"

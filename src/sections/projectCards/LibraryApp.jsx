@@ -5,7 +5,9 @@ const LibraryApp = () => {
   return (
     <InfoCard
       className="lg:w-full md:w-full"
-      image="images/book-finder-screenshot.png"
+      image1="images/book-finder-screenshot.png"
+      image2=""
+      image3=""
       title="Book Finder App"
       description="A React application that allows users to search for books using the Google Books API and displays the results in a clean, responsive interface. Find your next favorite read with ease!"
       buttonText="Learn More"

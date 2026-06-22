@@ -5,7 +5,9 @@ const AdminDashboard = () => {
   return (
     <InfoCard
       className="lg:w-full md:w-full"
-      image="/images/admin-dashboard2.png"
+      image1="/images/admin-dashboard2.png"
+      image2=""
+      image3=""
       title="Admin Dashboard"
       description="
                 All your business's statistics at a glance. Made using

@@ -14,6 +14,9 @@ const CvBuilder = () => {
       siteLink="https://shaiyan-cv-builder.netlify.app/"
       githubLink="https://github.com/pinkx-xlink/react-cv-generator"
       tags="React, HTML, CSS, JavaScript"
+      image1="images/cv-builder.png"
+      image2=""
+      image3=""
     />
   );
 };
