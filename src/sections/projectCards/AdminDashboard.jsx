@@ -12,7 +12,7 @@ const AdminDashboard = () => {
                 JavaScript, HTML, TailwindCSS, React, and Nivo charts."
       buttonText="Learn More"
       onButtonClick={() => alert("More info about Admin Dashboard")}
-      siteLink="/"
+      siteLink=""
       tags="React, JavaScript, HTML, CSS, Nivo Charts, APIs"
     />
   );

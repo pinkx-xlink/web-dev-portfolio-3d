@@ -133,7 +133,7 @@ const InfoCard = ({
                     </h1>
                     <div className="modal_content flex flex-col items-center lg:flex-row lg:justify-between gap-10">
                       <div
-                        className="image-container h-full md:w-200 flex justify-center items-center"
+                        className="image-container  h-full md:w-200 flex justify-center items-center"
                         // style={{
                         //   maxWidth: "550px",
                         //   borderRadius: "5px",
@@ -145,7 +145,7 @@ const InfoCard = ({
                         // }}
                       >
                         <img
-                          className="sm:w-[90%] rounded-lg"
+                          className="border-1 border-gray-200 rounded-lg sm:w-[90%] rounded-lg"
                           src={image}
                           alt={title}
                         />
@@ -157,14 +157,20 @@ const InfoCard = ({
                           {description}
                         </p>
                         <p>
-                          Visit this website:{" "}
-                          <a
-                            href={siteLink}
-                            className="site-link"
-                            target="_blank"
-                          >
-                            {siteLink}
-                          </a>{" "}
+                          {siteLink ? (
+                            <span>
+                              Visit this website:{" "}
+                              <a
+                                href={siteLink}
+                                className="site-link"
+                                target="_blank"
+                              >
+                                {siteLink}
+                              </a>{" "}
+                            </span>
+                          ) : (
+                            <></>
+                          )}
                         </p>
                       </div>
                     </div>
