@@ -18,9 +18,11 @@ const InfoCard = ({
   image,
   title,
   description,
+  fullDescription,
   buttonText,
   onButtonClick,
   siteLink,
+  githubLink,
   tags,
 }) => {
   return (
@@ -116,22 +118,19 @@ const InfoCard = ({
                     className="absolute right-6 top-6 m-5 self-end"
                     onClick={close}
                     style={{
-                      color: "black",
                       height: "30px",
                       border: "none",
                       cursor: "pointer",
-
-                      "&:hover": { backgroundColor: "gray" },
                     }}
                   >
-                    <CircleX className="bg-gray-300 hover:bg-gray-400 rounded-full" />
+                    <CircleX className="bg-gray-300 hover:bg-gray-400 rounded-full " />
                   </button>
 
                   <div className="info-container">
-                    <h1 className="text-black-50 bg-gray-200 text-xl lg:text-2xl lg:mb-10">
+                    <h1 className="text-black-50 bg-gray-200 text-xl lg:text-2xl lg:mt-40 max-lg:mt-20 mb-10">
                       {title}
                     </h1>
-                    <div className="modal_content flex flex-col items-center lg:flex-row lg:justify-between gap-10">
+                    <div className="modal_content flex flex-col items-center gap-10">
                       <div
                         className="image-container  h-full md:w-200 flex justify-center items-center"
                         // style={{
@@ -150,28 +149,51 @@ const InfoCard = ({
                           alt={title}
                         />
                       </div>
+                      <p className="site-link">
+                        {siteLink ? (
+                          <a
+                            href={siteLink}
+                            className="site-link"
+                            target="_blank"
+                          >
+                            <i>Visit this website</i>
+                          </a>
+                        ) : (
+                          <></>
+                        )}
+                      </p>
 
                       {/* TEXT */}
-                      <div className="modal_text text-left w-full lg:w-1/2 flex flex-col max-md:p-10">
+                      <h2 className="text-black-50 text-xl lg:text-2xl">
+                        About This Project
+                      </h2>
+                      <div className="modal_text text-left w-full lg:w-3/4 flex flex-col pl-10 pr-10">
+                        <p className="text-black-50 md:text-large mb-2">
+                          {fullDescription || description}
+                        </p>
+                        <br />
                         <p className="text-black-50 md:text-large">
-                          {description}
+                          <strong>Languages & tools used:</strong> {tags}
                         </p>
-                        <p>
-                          {siteLink ? (
-                            <span>
-                              Visit this website:{" "}
-                              <a
-                                href={siteLink}
-                                className="site-link"
-                                target="_blank"
-                              >
-                                {siteLink}
-                              </a>{" "}
-                            </span>
-                          ) : (
-                            <></>
-                          )}
-                        </p>
+
+                        <br />
+
+                        {githubLink ? (
+                          <p>
+                            Visit my Github and check out the code repository
+                            for this project{" "}
+                            <a
+                              href={githubLink}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              here
+                            </a>
+                            .
+                          </p>
+                        ) : (
+                          <></>
+                        )}
                       </div>
                     </div>
                   </div>
@@ -192,12 +214,14 @@ InfoCard.propTypes = {
   description: PropTypes.string.isRequired,
   buttonText: PropTypes.string,
   onButtonClick: PropTypes.func,
+  githubLink: PropTypes.string,
 };
 
 // Default props
 InfoCard.defaultProps = {
   image: "",
   buttonText: "",
+  githubLink: "",
   onButtonClick: () => {},
 };
 
