@@ -5,9 +5,9 @@ const AnimatedCounter = () => {
   return (
     <div
       id="counter"
-      className="padding-x-lg xl:mt-0 mt-40 md:mt-10 max-sm:mt-25"
+      className="padding-x-lg xl:mt-0 sm:mt-25 md:mt-65 lg:mt-10"
     >
-      <div className="mx-auto grid-4-cols">
+      <div className="mx-auto grid-4-cols pt-10">
         {counterItems.map((item) => (
           <div
             className="bg-sinz-900 rounded-lg p-10 flex flex-col

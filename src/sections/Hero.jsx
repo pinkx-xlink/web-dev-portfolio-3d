@@ -24,11 +24,7 @@ const Hero = () => {
     );
   });
   return (
-    <section
-      id="hero"
-      className="relative 
-  overflow-hidden"
-    >
+    <section id="hero" className="relative overflow-hidden">
       <div className="absolute top-0 left-0 z-10">
         <img src="/images/bg.png" alt="background" />
       </div>
@@ -87,6 +83,10 @@ const Hero = () => {
                 className="md:w-80 md:h-16 w-60 h-12"
                 id="button"
                 text="See my Work"
+                onClick={() => {
+                  const workSection = document.querySelector("#work");
+                  workSection.scrollIntoView({ behavior: "smooth" });
+                }}
               />
             </div>
 
